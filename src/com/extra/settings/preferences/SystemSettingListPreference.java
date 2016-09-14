@@ -21,12 +21,12 @@ import android.provider.Settings;
 import androidx.preference.ListPreference;
 import android.util.AttributeSet;
 
-public class SecureSettingListPreference extends ListPreference {
-    public SecureSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
+public class SystemSettingListPreference extends ListPreference {
+    public SystemSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
-    public SecureSettingListPreference(Context context, AttributeSet attrs) {
+    public SystemSettingListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
@@ -37,7 +37,7 @@ public class SecureSettingListPreference extends ListPreference {
                 // It's already there, so the same as persisting
                 return true;
             }
-            Settings.Secure.putString(getContext().getContentResolver(), getKey(), value);
+            Settings.System.putString(getContext().getContentResolver(), getKey(), value);
             return true;
         }
         return false;
@@ -48,13 +48,13 @@ public class SecureSettingListPreference extends ListPreference {
         if (!shouldPersist()) {
             return defaultReturnValue;
         }
-        String value = Settings.Secure.getString(getContext().getContentResolver(), getKey());
+        String value = Settings.System.getString(getContext().getContentResolver(), getKey());
         return value == null ? defaultReturnValue : value;
     }
 
     @Override
     protected boolean isPersisted() {
-        return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
+        return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 
     public int getIntValue(int defValue) {
