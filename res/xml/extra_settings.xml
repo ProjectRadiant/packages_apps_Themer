@@ -59,4 +59,12 @@
 	        android:title="@string/quicksettings_title"
 	        android:fragment="com.extra.settings.fragments.QuickSettings"
 	        android:icon="@drawable/ic_settings_quicksettings"/>
+
+        <!-- Notification Settings -->
+	   <Preference
+	        android:key="notifications_category"
+	        android:title="@string/notifications_title"
+	        android:fragment="com.extra.settings.fragments.NotificationSettings"
+	        android:icon="@drawable/ic_settings_notifications"/>
+
 </PreferenceScreen>

@@ -154,7 +154,7 @@
 
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
-    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles. RESTART REQUIRED.</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles. Restart required.</string>
     
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">App icon shape picker</string>
@@ -212,6 +212,12 @@
     <!-- QS Disco -->
     <string name="qs_tiles_title">Tiles</string>
     <string name="qs_bg_use_disco">QS tile disco</string>
-    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful! Restart required.</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
 </resources>
