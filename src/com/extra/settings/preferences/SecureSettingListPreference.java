@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ssos.support.preferences;
+package com.extra.settings.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
