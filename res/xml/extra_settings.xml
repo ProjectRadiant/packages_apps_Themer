@@ -24,4 +24,11 @@
             android:fragment="com.extra.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
+        <!-- Lock Screen -->
+        <Preference
+            android:key="gestures_category"
+            android:title="@string/lockscreen_title" 
+            android:fragment="com.extra.settings.fragments.LockScreenSettings"
+            android:icon="@drawable/ic_settings_lockscreens"/>
+
 </PreferenceScreen>
