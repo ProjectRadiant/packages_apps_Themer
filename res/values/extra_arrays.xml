@@ -97,7 +97,8 @@
 
     <!-- VoLTE Icon Type -->
     <string-array name="volte_icon_type_entries" translatable="false">
-        <item>@string/volte_icon_hd</item>
+        <item>@string/volte_icon_asus</item>
+	    <item>@string/volte_icon_hd</item>
         <item>@string/volte_icon_oos</item>
         <item>@string/volte_icon_volte</item>
         <item>@string/volte_icon_vo</item>
