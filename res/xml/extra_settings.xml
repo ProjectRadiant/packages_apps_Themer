@@ -26,9 +26,15 @@
 
         <!-- Lock Screen -->
         <Preference
-            android:key="gestures_category"
+            android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
             android:fragment="com.extra.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
+        <!-- Status Bar -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title" 
+            android:fragment="com.extra.settings.fragments.StatusBarSettings"
+            android:icon="@drawable/ic_settings_statusbar"/>
 </PreferenceScreen>
