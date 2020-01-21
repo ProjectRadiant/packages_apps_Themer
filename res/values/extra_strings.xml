@@ -100,4 +100,10 @@
     <!-- Advanced Reboot -->
 
     <string name="reboot">Restart</string>
+
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">VoLTE icon</string>
+    <string name="volte_switch_summary">Display VoLTE icon</string>
+    <string name="statusbar_icon">Statusbar Icon</string>
+
 </resources>
