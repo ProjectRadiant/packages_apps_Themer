@@ -29,7 +29,7 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NitrogenSettings extends SettingsPreferenceFragment {
+public class ExtraSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -40,7 +40,7 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
