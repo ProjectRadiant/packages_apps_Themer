@@ -11,6 +11,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- App Title -->
     <string name="extra_settings_title">Nezuko Settings</string>
 
@@ -88,23 +89,10 @@
     <string name="clock_date_position">Date position</string>
     <string name="statusbar_items_categories_title">Status bar items categories</string>
 
-   <!-- Global Actions -->
+    <!-- Advanced Reboot -->
+    <string name="reboot">Restart</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
-
- <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
-
-<!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-
-    <!-- Advanced Reboot -->
-
-    <string name="reboot">Restart</string>
 
     <!-- VoLTE -->
     <string name="volte_switch_title">VoLTE icon</string>
@@ -152,6 +140,7 @@
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
     <string name="unit_seconds">seconds</string>
+
    <!-- Accent colours -->
     <string name="prebuilt_accents_title">Accent colours</string>
     <string name="prebuilt_accents_summary">Choose an accent to apply system-wide</string>
@@ -166,7 +155,8 @@
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
     <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
     
-<string name="theme_customization_icon_shape_title">App icon shape picker</string>
-<string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
-<string name="theme_customization_font_title">Font picker</string>
+    <!-- Themer -->
+    <string name="theme_customization_icon_shape_title">App icon shape picker</string>
+    <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
+    <string name="theme_customization_font_title">Font picker</string>
 </resources>
