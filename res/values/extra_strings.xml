@@ -156,8 +156,11 @@
     <string name="themes_preview_button_text">ShapeShift</string>
     <string name="preview_color_select_text">SELECT COLOUR</string>
     <string name="preview_color_selected_accent">Default</string>
-    
+
     <!-- Accent color picker -->
     <string name="accent_color_title">RGB accent color picker</string>
 
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
 </resources>
