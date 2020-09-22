@@ -151,4 +151,27 @@
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
     <string name="unit_seconds">seconds</string>
 
+    <string name="themesui_title">ThemesUi</string>    
+    <!-- Themes -->
+    <string name="theme_type_title">DarkUi themes</string>
+    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_light">Light</string>
+    <string name="theme_type_pitch_black">Legion Dark</string>
+    <string name="theme_type_solarized_dark">Solarized Dark</string>
+    <string name="theme_type_baked_green">Baked Green</string>
+    <string name="theme_type_choco_x">Choco Colt</string>
+    <string name="theme_type_dark_grey">Dark Grey</string>
+    <string name="theme_type_du_pitchblack">Pitch black</string> 
+    <string name="theme_type_material_ocean">Material Ocean</string>
+    <string name="theme_type_xtended_clear">Xtended Clear</string>
+
+    <!-- GVM -->
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="theme_customization_ui_radius_title">UI radius</string>
+    <string name="theme_customization_ui_radius_vol_title">UI radius volume</string>
+    <string name="theme_customization_sysui_icon_title">Statusbar icon</string>
+
+    <!--ThemePicker-->
+    <string name="theme_select_title">Styles and Wallpapers</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
 </resources>

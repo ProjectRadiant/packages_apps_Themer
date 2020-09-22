@@ -21,4 +21,7 @@
         <attr name="units" format="string|reference" />
         <attr name="defaultText" format="string|reference" />
     </declare-styleable>
+
+
+
 </resources>
