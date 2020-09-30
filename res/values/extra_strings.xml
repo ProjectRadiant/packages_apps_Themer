@@ -220,4 +220,17 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
+    <!-- Themes -->
+    <string name="theme_type_title">System theme</string>
+    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_light">Light</string>
+    <string name="theme_type_pitch_black">Google dark</string>
+    <string name="theme_type_solarized_dark">Solarized dark</string>
+    <string name="theme_type_baked_green">Baked Green</string>
+    <string name="theme_type_choco_x">Choco X</string>
+     <string name="theme_type_dark_grey">Dark Grey</string>
+    <string name="theme_type_du_pitchblack">Pitch black</string> 
+    <string name="theme_type_material_ocean">Material Ocean</string>
+    <string name="theme_type_clear_spring">Clear Spring</string>
+
 </resources>

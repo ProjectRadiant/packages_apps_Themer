@@ -36,6 +36,13 @@
         settings:showReset="true"  
         android:persistent="false" />
 
+		<!-- Themes -->
+        <Preference
+            android:key="theme_category"
+            android:title="@string/theme_type_title"
+            android:fragment="com.nezuko.extra.fragments.ThemeSettings"
+            android:icon="@drawable/ic_settings_miscs"/>
+
     <ListPreference
        android:layout="@layout/settings_icons_preview"
        android:selectable="false" />
