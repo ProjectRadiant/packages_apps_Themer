@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 ShapeShiftOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/themer_title" >
+
+    <ListPreference
+       android:layout="@layout/accents_shapes_base_preview"
+       android:selectable="false" />
+
+    <Preference
+        android:key="prebuilt_accents_key"
+        android:title="@string/prebuilt_accents_title"
+        android:summary="@string/prebuilt_accents_summary"
+        android:fragment="com.ssos.shapeshifter.fragments.ui.PrebuiltAccents" />
+
+    <ListPreference
+       android:layout="@layout/settings_icons_preview"
+       android:selectable="false" />
+
+    <ListPreference
+       android:key="android.theme.customization.adaptive_icon_shape"
+       android:title="@string/theme_customization_icon_shape_title"/>
+
+    <ListPreference
+       android:key="android.theme.customization.icon_pack"
+       android:title="@string/theme_customization_sysui_icons_title"/>
+
+    <ListPreference
+       android:layout="@layout/fonts_base_preview"
+       android:selectable="false" />
+
+    <ListPreference
+       android:key="android.theme.customization.font"
+       android:title="@string/theme_customization_font_title"/>
+
+</PreferenceScreen>
