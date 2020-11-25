@@ -47,8 +47,8 @@
                             <Switch
                                 android:layout_width="wrap_content"
                                 android:layout_weight="1"
-                                android:checked="true"
-                                android:layout_marginTop="38dp"
+                                android:checked="false"
+                                android:layout_marginTop="35dp"
                                 android:layout_marginEnd="10dp"
                                 android:layout_height="match_parent"/>
 
@@ -56,6 +56,7 @@
                             <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_weight="1"
+                                android:checked="true"
                                 android:layout_marginTop="2dp"
                                 android:layout_marginEnd="12dp"
                                 android:layout_height="match_parent"/>
@@ -67,6 +68,7 @@
                                 android:layout_marginBottom="12dp"
                                 android:layout_height="match_parent"/>
                             <TextView
+                                android:id="@+id/previewText"
                                 android:layout_width="match_parent"
                                 android:layout_height="40dp"
                                 android:layout_marginStart="24dp"
@@ -116,6 +118,7 @@
                     android:gravity="center"
                     android:layout_marginTop="5dp"
                     android:text="@string/preview_color_select_text"
+                    android:clickable="false"   
                     android:elevation="2dp"
                     android:layout_marginBottom="3dp"
                     android:layout_marginHorizontal="15dp"
@@ -136,6 +139,7 @@
                     <TableLayout
                         android:layout_width="match_parent"
                         android:layout_gravity="bottom"
+                        android:clickable="false"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginStart="0dp">
@@ -146,15 +150,19 @@
                             android:layout_marginBottom="10dp">
 
                             <ImageView
-                                android:id="@+id/colorShapeShifter"
+                                android:id="@+id/colorMIUI"
+                                android:clickable="true"
+                                android:focusable="true"
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
-                                android:tint="@color/colorShapeShifter"/>
+                                android:tint="@color/colorMIUI"/>
                             <ImageView
                                 android:id="@+id/colorTeal"
                                 android:layout_width="match_parent"
+                                android:focusable="true"
+                                android:clickable="true"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
@@ -164,40 +172,52 @@
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorSuperNova"/>
                             <ImageView
                                 android:id="@+id/colorPixelBlue"
                                 android:layout_width="match_parent"
+                                android:focusable="true"
+                                android:clickable="true"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorPixelBlue"/>
                             <ImageView
                                 android:id="@+id/colorTangerine"
+                                android:focusable="true"
                                 android:layout_width="match_parent"
+                                android:clickable="true"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorTangerine"/>
                             <ImageView
+                                android:clickable="true"
                                 android:id="@+id/colorAquamarine"
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
+                                android:focusable="true"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorAquamarine"/>
                             <ImageView
                                 android:id="@+id/colorOrchid"
                                 android:layout_width="match_parent"
+                                android:clickable="true"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
+                                android:focusable="true"
                                 android:tint="@color/colorOrchid"/>
                             <ImageView
                                 android:id="@+id/colorPurple"
+                                android:focusable="true"
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
+                                android:clickable="true"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorPurple"/>
@@ -211,7 +231,9 @@
                             <ImageView
                                 android:id="@+id/colorBlack"
                                 android:layout_width="match_parent"
+                                android:focusable="true"
                                 android:layout_marginHorizontal="5dp"
+                                android:clickable="true"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorBlack"/>
@@ -219,7 +241,9 @@
                             <ImageView
                                 android:id="@+id/colorGreen"
                                 android:layout_width="match_parent"
+                                android:focusable="true"
                                 android:layout_marginHorizontal="5dp"
+                                android:clickable="true"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorGreen"/>
@@ -229,14 +253,18 @@
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorSpace"/>
 
                             <ImageView
                                 android:id="@+id/colorDodgerBlue"
                                 android:layout_width="match_parent"
+                                android:focusable="true"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
+                                android:clickable="true"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorDodgerBlue"/>
 
@@ -244,14 +272,18 @@
                                 android:id="@+id/colorTorchRed"
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
+                                android:focusable="true"
                                 android:layout_weight="1"
+                                android:clickable="true"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorTorchRed"/>
 
                             <ImageView
                                 android:id="@+id/colorMagenta"
                                 android:layout_width="match_parent"
+                                android:clickable="true"
                                 android:layout_marginHorizontal="5dp"
+                                android:focusable="true"
                                 android:layout_weight="1"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorMagenta"/>
@@ -261,6 +293,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
                                 android:layout_weight="1"
+                                android:focusable="true"
+                                android:clickable="true"
                                 android:src="@drawable/accent_selector_button"
                                 android:tint="@color/colorRed"/>
 
@@ -268,7 +302,9 @@
                                 android:id="@+id/colorCheese"
                                 android:layout_width="match_parent"
                                 android:layout_marginHorizontal="5dp"
+                                android:focusable="true"
                                 android:layout_weight="1"
+                                android:clickable="true"
                                 android:tint="@color/colorCheese"
                                 android:src="@drawable/accent_selector_button"/>
                         </TableRow>

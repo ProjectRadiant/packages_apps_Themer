@@ -57,8 +57,7 @@
     <color name="accent_text_color">#242424</color>
 
     <!--  theme color codes   -->
-
-    <color name="colorShapeShifter">#725AFF</color>
+    <color name="colorMIUI">#059CFB</color>
     <color name="colorTeal">#ff008577</color>
     <color name="colorSuperNova">#ffc90f</color>
     <color name="colorPixelBlue">#ff1a73e8</color>
