@@ -37,4 +37,12 @@
             android:title="@string/statusbar_title" 
             android:fragment="com.extra.settings.fragments.StatusBarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
+           
+        <!-- Button Settings -->
+	<Preference
+	    android:key="button_category"
+	    android:title="@string/button_title"
+	    android:fragment="com.extra.settings.fragments.ButtonSettings"
+	    androidmicon="@drawable/ic_settings_buttons"/>
+
 </PreferenceScreen>
