@@ -20,7 +20,7 @@
     android:title="@string/themer_title" >
 
     <ListPreference
-       android:layout="@layout/accents_shapes_base_preview"
+       android:layout="@layout/themes_accent_preview"
        android:selectable="false" />
 
     <Preference
@@ -44,10 +44,6 @@
             android:icon="@drawable/ic_settings_miscs"/>
 
     <ListPreference
-       android:layout="@layout/settings_icons_preview"
-       android:selectable="false" />
-
-    <ListPreference
        android:key="android.theme.customization.adaptive_icon_shape"
        android:title="@string/theme_customization_icon_shape_title"/>
 
@@ -63,7 +59,7 @@
        android:defaultValue="@string/volume_panel_aosp_val" />
 
     <ListPreference
-       android:layout="@layout/fonts_base_preview"
+       android:layout="@layout/themes_font_preview"
        android:selectable="false" />
 
     <ListPreference
