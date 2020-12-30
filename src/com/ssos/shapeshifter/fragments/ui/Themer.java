@@ -37,6 +37,8 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.R;
 
+import com.ssos.shapeshifter.display.AccentColorPreferenceController;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -73,6 +75,7 @@ public class Themer extends DashboardFragment implements Indexable  {
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
+        controllers.add(new AccentColorPreferenceController(context));
         return controllers;
     }
 
