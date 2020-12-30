@@ -34,8 +34,10 @@ public class AccentColorPreferenceController extends AbstractPreferenceControlle
 
     private static final String ACCENT_COLOR = "accent_color";
     static final int DEFAULT_ACCENT_COLOR = 0xff725aff;
+    private static final String ACCENT_OVERLAY = "prebuilt_accents_key";
 
     private ColorPickerPreference mAccentColor;
+    private Preference mAccentOverlay;
 
     public AccentColorPreferenceController(Context context) {
         super(context);
@@ -55,14 +57,17 @@ public class AccentColorPreferenceController extends AbstractPreferenceControlle
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mAccentColor = (ColorPickerPreference) screen.findPreference(ACCENT_COLOR);
+        mAccentOverlay = (Preference) screen.findPreference(ACCENT_OVERLAY);
         mAccentColor.setOnPreferenceChangeListener(this);
         int intColor = Settings.System.getIntForUser(mContext.getContentResolver(),
                 Settings.System.ACCENT_COLOR, DEFAULT_ACCENT_COLOR, UserHandle.USER_CURRENT);
         String hexColor = String.format("#%08x", (0xff725aff & intColor));
         if (hexColor.equals("#ff725aff")) {
             mAccentColor.setSummary(R.string.default_string);
+            mAccentOverlay.setEnabled(true);
         } else {
             mAccentColor.setSummary(hexColor);
+            mAccentOverlay.setEnabled(false);
         }
         mAccentColor.setNewPreviewColor(intColor);
     }
@@ -74,8 +79,10 @@ public class AccentColorPreferenceController extends AbstractPreferenceControlle
                     Integer.valueOf(String.valueOf(newValue)));
             if (hex.equals("#ff725aff")) {
                 mAccentColor.setSummary(R.string.default_string);
+                mAccentOverlay.setEnabled(true);
             } else {
                 mAccentColor.setSummary(hex);
+                mAccentOverlay.setEnabled(false);
             }
             int intHex = ColorPickerPreference.convertToColorInt(hex);
             Settings.System.putIntForUser(mContext.getContentResolver(),
