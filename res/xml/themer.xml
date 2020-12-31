@@ -33,6 +33,7 @@
         android:key="accent_color"
         android:title="@string/accent_color_title"
         android:defaultValue="0xFF725AFF"
+        settings:showReset="true"  
         android:persistent="false" />
 
     <ListPreference
