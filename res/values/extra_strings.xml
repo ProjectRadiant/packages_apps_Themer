@@ -16,6 +16,8 @@
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
+    <string name="traffic_title">traffic</string>
+    <string name="traffic_summary">traffic</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
@@ -101,11 +103,10 @@
 
     <string name="reboot">Restart</string>
 
-    <!-- VoLTE switch -->
+    <!-- VoLTE -->
     <string name="volte_switch_title">VoLTE icon</string>
     <string name="volte_switch_summary">Display VoLTE icon</string>
     <string name="statusbar_icon">Statusbar Icon</string>
-
     <string name="volte_icon_title">VoLTE icon</string>
     <string name="volte_icon_summary">Display VoLTE icon</string>
     <string name="volte_icon_style_title">Select VoLTE Icon</string>
@@ -117,4 +118,36 @@
     <string name="volte_icon_hd2">HD CAF Icon</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_location_disable">Disabled</string>
+    <string name="network_traffic_location_statusbar">Statusbar</string>
+    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_up">Upload only</string>
+    <string name="network_traffic_mode_down">Download only</string>
+    <string name="network_traffic_mode_all">Upload and download</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
+    <string name="unit_seconds">seconds</string>
+
 </resources>
