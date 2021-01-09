@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Battery percent -->
     <string-array name="battery_percent_entries">
         <item>@string/status_bar_battery_percentage_default</item>
