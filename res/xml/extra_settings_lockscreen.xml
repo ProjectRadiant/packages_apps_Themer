@@ -18,6 +18,11 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.extra.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_status_bar"
+        android:title="@string/lockscreen_status_bar_title"
+        android:summary="@string/lockscreen_status_bar_summary"
+        android:defaultValue="true" />
 
     <com.extra.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_lock_icon"
