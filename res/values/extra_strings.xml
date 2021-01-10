@@ -44,6 +44,7 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot.</string>
 
      <!-- Fingerprint unlock -->
+    <string name="fp_title">Fingerprint sensor</string>
     <string name="fp_unlock_keystore_title">Force FP authentication</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
 
@@ -199,5 +200,10 @@
     <string name="volume_panel_compact_val" translatable="false">co.potatoproject.plugin.volume.compact</string>
     <string name="volume_panel_oreo_val" translatable="false">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val" translatable="false">co.potatoproject.plugin.volume.tiled</string>
+
+
+    <!-- Lock Icon -->
+    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
 
 </resources>

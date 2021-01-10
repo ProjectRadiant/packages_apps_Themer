@@ -18,16 +18,28 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.extra.settings.preferences.SystemSettingSwitchPreference
-        android:key="fp_unlock_keystore"
-        android:title="@string/fp_unlock_keystore_title"
-        android:summary="@string/fp_unlock_keystore_summary"
-        android:defaultValue="false" />
 
-     <SwitchPreference
-        android:key="fingerprint_success_vib"
-        android:title="@string/fprint_sucess_vib_title"
-        android:summary="@string/fprint_sucess_vib_summary"
-        android:persistent="false" />
+    <com.extra.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_lock_icon"
+        android:title="@string/lockscreen_lock_icon_title"
+        android:summary="@string/lockscreen_lock_icon_summary"
+        android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:title="@string/fp_title">
+
+        <com.extra.settings.preferences.SystemSettingSwitchPreference
+          android:key="fp_unlock_keystore"
+          android:title="@string/fp_unlock_keystore_title"
+          android:summary="@string/fp_unlock_keystore_summary"
+          android:defaultValue="false" />
+
+       <SwitchPreference
+          android:key="fingerprint_success_vib"
+          android:title="@string/fprint_sucess_vib_title"
+          android:summary="@string/fprint_sucess_vib_summary"
+          android:persistent="false" />
+
+     </PreferenceCategory>
 
 </PreferenceScreen>
