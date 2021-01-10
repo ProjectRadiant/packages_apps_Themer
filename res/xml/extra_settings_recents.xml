@@ -18,5 +18,4 @@
     android:title="@string/recents_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-
 </PreferenceScreen>
