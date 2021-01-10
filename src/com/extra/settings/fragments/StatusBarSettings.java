@@ -28,7 +28,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
 
-
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;

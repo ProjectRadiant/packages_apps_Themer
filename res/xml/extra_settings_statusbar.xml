@@ -23,12 +23,5 @@
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
-     
-     <com.android.settings.widget.CardPreference
-        android:key="traffic_category"
-        android:fragment="com.extra.fragments.statusbar.TrafficIndicators"
-        android:icon="@drawable/ic_network_traffic_background"
-        android:title="@string/traffic_title"
-        android:summary="@string/traffic_summary" />
 
 </PreferenceScreen>
