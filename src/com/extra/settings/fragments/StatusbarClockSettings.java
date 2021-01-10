@@ -81,7 +81,7 @@ public class StatusbarClockSettings extends SettingsPreferenceFragment implement
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.evolution_settings_statusbar_clock);
+        addPreferencesFromResource(R.xml.extra_settings_statusbar);
         final ContentResolver resolver = getActivity().getContentResolver();
 
         // clock settings
@@ -299,7 +299,7 @@ public class StatusbarClockSettings extends SettingsPreferenceFragment implement
                     ArrayList<SearchIndexableResource> result =
                             new ArrayList<SearchIndexableResource>();
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.evolution_settings_statusbar_clock;
+                    sir.xmlResId = R.xml.extra_settings_statusbar;
                     result.add(sir);
                     return result;
                 }
