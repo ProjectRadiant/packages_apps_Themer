@@ -23,7 +23,7 @@
 
     <PreferenceCategory
         android:key="volume_keys"
-        android:title="@string/volume_keys_category" >
+        android:title="@string/reboot" >
 
         <com.extra.settings.preferences.SecureSettingSwitchPreference
             android:key="advanced_reboot"
