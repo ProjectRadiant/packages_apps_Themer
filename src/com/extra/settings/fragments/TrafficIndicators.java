@@ -182,7 +182,7 @@ public class TrafficIndicators extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA;
+        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

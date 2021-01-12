@@ -16,8 +16,9 @@
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
-    <string name="traffic_title">traffic</string>
-    <string name="traffic_summary">traffic</string>
+    <string name="traffic_title">Network Traffic Indicator</string>
+    <string name="traffic_indicators">Traffic Indicator</string>
+    <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>

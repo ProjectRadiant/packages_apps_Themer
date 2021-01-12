@@ -57,11 +57,14 @@
         
 	</PreferenceCategory>
 
-    <com.android.settings.widget.CardPreference
+	<PreferenceCategory
+            android:title="@string/traffic_indicators">
+    <Preference
         android:key="traffic_category"
         android:fragment="com.extra.settings.fragments.TrafficIndicators"
         android:icon="@drawable/ic_settings_statusbar"
         android:title="@string/traffic_title"
         android:summary="@string/traffic_summary" />
-        
+
+    </PreferenceCategory> 
 </PreferenceScreen>
