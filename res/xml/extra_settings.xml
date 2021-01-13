@@ -45,4 +45,11 @@
 	    android:fragment="com.extra.settings.fragments.ButtonSettings"
 	    androidmicon="@drawable/ic_settings_buttons"/>
 
+    <!-- Themer -->
+	<Preference
+	    android:key="button_category"
+	    android:title="@string/themer_title"
+	    android:fragment="com.ssos.shapeshifter.fragments.ui.Themer"
+	    androidmicon="@drawable/ic_themer_image"/>
+
 </PreferenceScreen>

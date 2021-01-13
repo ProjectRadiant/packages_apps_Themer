@@ -28,11 +28,13 @@
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
+    <string name="themer_title">Themer</string>
     <string name="notifications_title">Notifications</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
+    <string name="default_string">Default</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
 
@@ -163,4 +165,8 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
     <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
+    
+<string name="theme_customization_icon_shape_title">App icon shape picker</string>
+<string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
+<string name="theme_customization_font_title">Font picker</string>
 </resources>
