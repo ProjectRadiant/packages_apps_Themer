@@ -17,47 +17,53 @@
 package com.extra.settings.preferences;
 
 import android.content.Context;
-import android.provider.Settings;
 import androidx.preference.ListPreference;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 
 public class SecureSettingListPreference extends ListPreference {
+    private boolean mAutoSummary = false;
+
     public SecureSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     public SecureSettingListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
+    }
+
+    public SecureSettingListPreference(Context context) {
+        super(context);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     @Override
-    protected boolean persistString(String value) {
-        if (shouldPersist()) {
-            if (value == getPersistedString(null)) {
-                // It's already there, so the same as persisting
-                return true;
-            }
-            Settings.Secure.putString(getContext().getContentResolver(), getKey(), value);
-            return true;
+    public void setValue(String value) {
+        super.setValue(value);
+        if (mAutoSummary || TextUtils.isEmpty(getSummary())) {
+            setSummary(getEntry(), true);
         }
-        return false;
     }
 
     @Override
-    protected String getPersistedString(String defaultReturnValue) {
-        if (!shouldPersist()) {
-            return defaultReturnValue;
-        }
-        String value = Settings.Secure.getString(getContext().getContentResolver(), getKey());
-        return value == null ? defaultReturnValue : value;
+    public void setSummary(CharSequence summary) {
+        setSummary(summary, false);
+    }
+
+    private void setSummary(CharSequence summary, boolean autoSummary) {
+        mAutoSummary = autoSummary;
+        super.setSummary(summary);
     }
 
     @Override
-    protected boolean isPersisted() {
-        return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        // This is what default ListPreference implementation is doing without respecting
+        // real default value:
+        //setValue(restoreValue ? getPersistedString(mValue) : (String) defaultValue);
+        // Instead, we better do
+        setValue(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
     }
 
-    public int getIntValue(int defValue) {
-        return getValue() == null ? defValue : Integer.valueOf(getValue());
-    }
 }
