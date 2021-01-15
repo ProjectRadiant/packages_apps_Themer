@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/extra_settings_title" >
 
+
+        <!-- Themer -->
+	    <Preference
+	        android:key="button_category"
+	        android:title="@string/themer_title"
+	        android:fragment="com.ssos.shapeshifter.fragments.ui.Themer"
+	        android:icon="@drawable/ic_themer_image"/>
+
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
@@ -39,17 +47,16 @@
             android:icon="@drawable/ic_settings_statusbar"/>
            
         <!-- Button Settings -->
-	<Preference
-	    android:key="button_category"
-	    android:title="@string/button_title"
-	    android:fragment="com.extra.settings.fragments.ButtonSettings"
-	    androidmicon="@drawable/ic_settings_buttons"/>
+	   <Preference
+	        android:key="button_category"
+	        android:title="@string/button_title"
+	        android:fragment="com.extra.settings.fragments.ButtonSettings"
+	        android:icon="@drawable/ic_settings_buttons"/>
 
-    <!-- Themer -->
-	<Preference
-	    android:key="button_category"
-	    android:title="@string/themer_title"
-	    android:fragment="com.ssos.shapeshifter.fragments.ui.Themer"
-	    androidmicon="@drawable/ic_themer_image"/>
-
+        <!-- Quick Settings -->
+	   <Preference
+	        android:key="quicksettings_category"
+	        android:title="@string/quicksettings_title"
+	        android:fragment="com.extra.settings.fragments.QuickSettings"
+	        android:icon="@drawable/ic_settings_quicksettings"/>
 </PreferenceScreen>
