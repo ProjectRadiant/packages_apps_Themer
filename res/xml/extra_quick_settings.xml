@@ -28,7 +28,7 @@
             android:summary="@string/qs_bg_use_new_tint_summary"
             android:defaultValue="false" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.extra.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tiles_bg_disco"
             android:title="@string/qs_bg_use_disco"
             android:summary="@string/qs_bg_use_disco_summary"
