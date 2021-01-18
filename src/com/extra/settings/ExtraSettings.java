@@ -1,12 +1,11 @@
 /*
- * Copyright (C) 2016 The Pure Nexus Project
- * used for Nitrogen OS
+ * Copyright (C) 2020 ShapeShiftOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,58 +16,87 @@
 
 package com.extra.settings;
 
-import com.android.internal.logging.nano.MetricsProto;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.os.SystemProperties;
+import androidx.preference.*;
+import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 
-import android.app.Activity;
-import android.content.pm.ActivityInfo;
-import android.content.res.Configuration;
-import android.os.Bundle;
-import android.view.Surface;
-import android.preference.Preference;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.development.OverlayCategoryPreferenceController;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.search.SearchIndexable;
+
 import com.android.settings.R;
 
-import com.android.settings.SettingsPreferenceFragment;
+import com.ssos.shapeshifter.display.AccentColorPreferenceController;
 
-public class ExtraSettings extends SettingsPreferenceFragment {
+import java.util.ArrayList;
+import java.util.List;
 
-    @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
-
-        addPreferencesFromResource(R.xml.extra_settings);
-    }
+@SearchIndexable
+public class ExtraSettings extends DashboardFragment implements Indexable  {
+    private static final String TAG = "Themer";
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsEvent.CUSTOM_SETTINGS;
     }
 
-    public static void lockCurrentOrientation(Activity activity) {
-        int currentRotation = activity.getWindowManager().getDefaultDisplay().getRotation();
-        int orientation = activity.getResources().getConfiguration().orientation;
-        int frozenRotation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
-        switch (currentRotation) {
-            case Surface.ROTATION_0:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
-                break;
-            case Surface.ROTATION_90:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
-                break;
-            case Surface.ROTATION_180:
-                frozenRotation = orientation == Configuration.ORIENTATION_LANDSCAPE
-                        ? ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_PORTRAIT;
-                break;
-            case Surface.ROTATION_270:
-                frozenRotation = orientation == Configuration.ORIENTATION_PORTRAIT
-                        ? ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
-                        : ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE;
-                break;
-        }
-        activity.setRequestedOrientation(frozenRotation);
+    @Override
+    protected String getLogTag() {
+        return TAG;
     }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.themer;
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, Lifecycle lifecycle, Fragment fragment) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack"));
+        controllers.add(new AccentColorPreferenceController(context));
+        return controllers;
+    }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.themer;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

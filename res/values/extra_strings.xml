@@ -13,8 +13,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="extra_settings_title">Nezuko Settings</string>
-
+    <string name="extra_settings_title">Nezuko Themes</string>
+    <string name="extra_settings_summary">Slaying demons but with a different kimono.</string>
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="traffic_title">Network Traffic Indicator</string>

@@ -25,46 +25,4 @@
 	        android:fragment="com.ssos.shapeshifter.fragments.ui.Themer"
 	        android:icon="@drawable/ic_themer_image"/>
 
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title" 
-            android:fragment="com.extra.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
-
-        <!-- Lock Screen -->
-        <Preference
-            android:key="lockscreen_category"
-            android:title="@string/lockscreen_title" 
-            android:fragment="com.extra.settings.fragments.LockScreenSettings"
-            android:icon="@drawable/ic_settings_lockscreens"/>
-
-        <!-- Status Bar -->
-        <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title" 
-            android:fragment="com.extra.settings.fragments.StatusBarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
-           
-        <!-- Button Settings -->
-	   <Preference
-	        android:key="button_category"
-	        android:title="@string/button_title"
-	        android:fragment="com.extra.settings.fragments.ButtonSettings"
-	        android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Quick Settings -->
-	   <Preference
-	        android:key="quicksettings_category"
-	        android:title="@string/quicksettings_title"
-	        android:fragment="com.extra.settings.fragments.QuickSettings"
-	        android:icon="@drawable/ic_settings_quicksettings"/>
-
-        <!-- Notification Settings -->
-	   <Preference
-	        android:key="notifications_category"
-	        android:title="@string/notifications_title"
-	        android:fragment="com.extra.settings.fragments.NotificationSettings"
-	        android:icon="@drawable/ic_settings_notifications"/>
-
 </PreferenceScreen>
