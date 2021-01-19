@@ -233,4 +233,7 @@
     <string name="theme_type_material_ocean">Material Ocean</string>
     <string name="theme_type_clear_spring">Clear Spring</string>
 
+    <string name="themes_info">You might be wondering why you're here.</string>
+    <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
+
 </resources>
