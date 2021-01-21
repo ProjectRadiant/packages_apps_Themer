@@ -23,12 +23,6 @@
        android:layout="@layout/accents_shapes_base_preview"
        android:selectable="false" />
 
-    <Preference
-        android:key="prebuilt_accents_key"
-        android:title="@string/prebuilt_accents_title"
-        android:summary="@string/prebuilt_accents_summary"
-        android:fragment="com.ssos.shapeshifter.fragments.ui.PrebuiltAccents" />
-
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:title="@string/accent_color_title"
