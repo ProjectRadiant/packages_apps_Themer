@@ -20,6 +20,8 @@
     <dimen name="color_preference_width">18dip</dimen>
     <dimen name="color_preference_height">18dip</dimen>
 
+    <dimen name="nezuko_cat_icon_image_inset">6dp</dimen>
+
     <!-- Color Blend -->
     <dimen name="color_blend_preview_size">36dp</dimen>
 </resources>
