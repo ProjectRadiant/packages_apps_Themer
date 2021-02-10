@@ -32,6 +32,8 @@
 
     <!-- Previews -->
     <color name="preview_container_border">#ECECEC</color>
+    <color name="wifi">#ff6e9e</color>
+    <color name="location">#ffaf4d</color>
 
     <!-- ShapeShifter icon background colors -->
     <color name="shapeshifter_animations_background">@*android:color/accent_device_default_light</color>
