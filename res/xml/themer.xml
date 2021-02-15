@@ -23,6 +23,14 @@
        android:layout="@layout/themes_accent_preview"
        android:selectable="false" />
 
+
+    <ListPreference
+        android:key="lock_screen_custom_clock_face"
+        android:summary="%s"
+        android:title="@string/lock_screen_custom_clock_face_title"
+        android:entries="@array/lock_screen_custom_clock_face_entries"
+        android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
     <Preference
         android:key="prebuilt_accents_key"
         android:title="@string/prebuilt_accents_title"

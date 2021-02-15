@@ -16,12 +16,15 @@
 
 package com.ssos.shapeshifter.fragments.ui;
 
+import static android.os.UserHandle.USER_CURRENT;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.os.Bundle;
 import android.os.SystemProperties;
 import androidx.preference.*;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -42,18 +45,54 @@ import com.ssos.shapeshifter.display.AccentColorPreferenceController;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 @SearchIndexable
-public class Themer extends DashboardFragment implements Indexable  {
+public class Themer extends DashboardFragment implements Indexable, OnPreferenceChangeListener  {
+
     private static final String TAG = "Themer";
+    private static final String CUSTOM_CLOCK_FACE = Settings.Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
+    private static final String DEFAULT_CLOCK = "com.android.keyguard.clock.DefaultClockController";
+
+    private ContentResolver mResolver;
+
+    private ListPreference mLockClockStyles;
+    private Context mContext;
+
 
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.CUSTOM_SETTINGS;
     }
 
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        mContext = getActivity();
+
+        mLockClockStyles = (ListPreference) findPreference(CUSTOM_CLOCK_FACE);
+        String mLockClockStylesValue = getLockScreenCustomClockFace();
+        mLockClockStyles.setValue(mLockClockStylesValue);
+        mLockClockStyles.setSummary(mLockClockStyles.getEntry());
+        mLockClockStyles.setOnPreferenceChangeListener(this);
+    }
+
     @Override
     protected String getLogTag() {
         return TAG;
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mLockClockStyles) {
+            setLockScreenCustomClockFace((String) newValue);
+            int index = mLockClockStyles.findIndexOfValue((String) newValue);
+            mLockClockStyles.setSummary(mLockClockStyles.getEntries()[index]);
+            return true;
+        }
+        return false;
+
     }
 
     @Override
@@ -99,4 +138,29 @@ public class Themer extends DashboardFragment implements Indexable  {
                     return keys;
                 }
     };
+
+    private String getLockScreenCustomClockFace() {
+        String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
+                CUSTOM_CLOCK_FACE, USER_CURRENT);
+
+        if (value == null || value.isEmpty()) value = DEFAULT_CLOCK;
+
+        try {
+            JSONObject json = new JSONObject(value);
+            return json.getString("clock");
+        } catch (JSONException ex) {
+        }
+        return value;
+    }
+
+    private void setLockScreenCustomClockFace(String value) {
+        try {
+            JSONObject json = new JSONObject();
+            json.put("clock", value);
+            Settings.Secure.putStringForUser(mContext.getContentResolver(), CUSTOM_CLOCK_FACE,
+                    json.toString(), USER_CURRENT);
+        } catch (JSONException ex) {
+        }
+    }
+
 }
