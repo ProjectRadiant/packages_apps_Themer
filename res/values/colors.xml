@@ -25,7 +25,7 @@
     <color name="theme_accent">@*android:color/accent_device_default_light</color>
     <color name="preference_background_color">@*android:color/accent_device_default_light</color>
     <color name="dummycolorAccent">?android:attr/colorAccent</color>
-    <color name="nezuko_themer_background">#f7b2c0</color>
+    <color name="nezuko_themer_background">#a8b2e3</color>
     <color name="preview_text">#ff000000</color>
     <color name="themes_preview_background">#0f000000</color>
     <color name="themes_preview_card">#ffffffff</color>
