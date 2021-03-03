@@ -37,8 +37,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
-import com.android.settings.R;
+import android.view.ViewGroup.LayoutParams;
 
 /**
  * A preference type that allows a user to choose a time
@@ -59,7 +58,7 @@ public class ColorPickerPreference extends Preference implements
     static final String SETTINGS_NS = "http://schemas.android.com/apk/res/com.android.settings";
     static final int DEF_VALUE_DEFAULT = -6;
     boolean mUsesDefaultButton = false;
-    int mDefValue = -1;
+    int mDefValue = -1; 
 
     private EditText mEditText;
 
