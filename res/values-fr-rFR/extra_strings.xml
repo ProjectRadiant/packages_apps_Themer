@@ -12,33 +12,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_title">Style de l\'horloge</string>
+    <string name="clock_style_summary">Customiser l\'horloge de l\'écran de verrouillage</string>
     <!-- App Title -->
     <string name="extra_settings_title">Nezuko Themes</string>
-    <string name="extra_settings_summary">Slaying demons but with a different kimono.</string>
+    <string name="extra_settings_summary">Tuer des démons mais avec un kimono différent.</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="button_title">Boutons</string>
     <string name="traffic_title">Network Traffic Indicator</string>
     <string name="traffic_indicators">Traffic Indicator</string>
     <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
     <string name="gestures_title">Gestures</string>
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_title">Écran de verrouillage</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="powermenu_title">Power menu</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="recents_title">Recents apps</string>
-    <string name="statusbar_title">Status bar</string>
+    <string name="quicksettings_title">Paramètres rapide</string>
+    <string name="recents_title">Applications récentes</string>
+    <string name="statusbar_title">Barre d\'état</string>
     <string name="volume_title">Volume rockers</string>
     <string name="themer_title">Themer</string>
     <string name="notifications_title">Notifications</string>
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="default_string">Default</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="default_string">Défaut</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to take a screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot.</string>
@@ -53,23 +53,23 @@
     <string name="show_fourg_title">Show 4G instead of LTE</string>
     <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_date_title">Clock and Date</string>
+    <string name="status_bar_clock_date_title">Date et heure</string>
     <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
+    <string name="status_bar_clock_title">Paramètres de l\'horloge</string>
+    <string name="status_bar_clock_show">Afficher la date et l\'heure</string>
+    <string name="status_bar_clock_style_title">Style de l\'horloge</string>
+    <string name="status_bar_clock_style_right">Droite</string>
+    <string name="status_bar_clock_style_center">Centre</string>
+    <string name="status_bar_clock_style_left">Gauche</string>
+    <string name="status_bar_date_title">Paramètre de la date</string>
     <string name="status_bar_am_pm_title">AM/PM style</string>
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
+    <string name="status_bar_am_pm_normal">Normale</string>
+    <string name="status_bar_am_pm_small">Petite</string>
+    <string name="status_bar_am_pm_hidden">Caché (défaut)</string>
+    <string name="clock_seconds_display">Afficher les secondes</string>
     <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_summary">Afficher la date customisée avant l\'horloge</string>
     <string name="clock_date_display_none">Don\'t show</string>
     <string name="clock_date_display_small">Small font size</string>
     <string name="clock_date_display_normal">Normal font size</string>
@@ -105,7 +105,7 @@
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units">Afficher les unités</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
     <string name="network_traffic_units_title">Traffic measurement units</string>
     <string name="network_traffic_units_bits">Bits per second (b/s)</string>
@@ -114,17 +114,17 @@
     <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow">Cacher les flèches</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_seconds">secondes</string>
     <!-- Accent colours -->
     <string name="prebuilt_accents_title">Accent colours</string>
     <string name="prebuilt_accents_summary">You can pick an accent below using our RGB Accent picker.</string>
     <string name="themes_preview_button_text">Nezuko</string>
-    <string name="preview_color_select_text">SELECT COLOUR</string>
-    <string name="preview_color_selected_accent">Default</string>
+    <string name="preview_color_select_text">CHOISIR LA COULEUR</string>
+    <string name="preview_color_selected_accent">Défaut</string>
     <!-- Accent color picker -->
     <string name="accent_color_title">RGB accent color picker</string>
     <!-- QS tint -->
@@ -150,8 +150,8 @@
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_select_summary">Select custom image</string>
     <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="static_header_provider_title">Static image</string>
+    <string name="header_provider_disabled">Désactivé</string>
+    <string name="static_header_provider_title">Image Statique</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="unit_percent">\u0025</string>
@@ -165,7 +165,7 @@
     <!-- Lockscreen Clocks -->
     <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
     <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_default">Défaut</string>
     <string name="lock_screen_custom_clock_face_default_bold">Default (bold)</string>
     <string name="lock_screen_custom_clock_face_analog">Analog</string>
     <string name="lock_screen_custom_clock_face_bubble">Bubble</string>
