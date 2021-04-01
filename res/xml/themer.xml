@@ -41,7 +41,7 @@
     <net.margaritov.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
         android:title="@string/accent_color_title"
-        android:defaultValue="0xFF725AFF"
+        android:defaultValue="0xFFff4081"
         settings:showReset="true"  
         android:persistent="false" />
 
