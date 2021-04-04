@@ -45,7 +45,7 @@
     <!-- Fingerprint unlock -->
     <string name="fp_title">指纹感应器</string>
     <string name="fp_unlock_keystore_title">强制指纹身份验证</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+    <string name="fp_unlock_keystore_summary">在重启或者锁屏后使用指纹解锁</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指纹身份认证振动</string>
     <string name="fprint_sucess_vib_summary">指纹认证成功时震动</string>
@@ -90,12 +90,12 @@
     <string name="global_actions_advanced_reboot_title">开启高级重启</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
     <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_title">网络流量监测</string>
     <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
     <string name="network_traffic_location_title">定位</string>
     <string name="network_traffic_location_disable">关闭</string>
     <string name="network_traffic_location_statusbar">状态栏</string>
-    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="network_traffic_location_quick_statusbar">快速设置</string>
     <string name="network_traffic_mode_title">显示模式</string>
     <string name="network_traffic_mode_up">仅上传</string>
     <string name="network_traffic_mode_down">仅下载</string>
@@ -104,14 +104,14 @@
     <string name="network_traffic_autohide_summary">不活动时隐藏流量指示器</string>
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_show_units">Show units</string>
-    <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
-    <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
+    <string name="network_traffic_autohide_threshold">非活动阈值</string>
+    <string name="network_traffic_show_units">显示单位</string>
+    <string name="network_traffic_show_units_summary">是否显示网络流量单位</string>
+    <string name="network_traffic_units_title">流量单位</string>
+    <string name="network_traffic_units_bits">比特/秒 (b/s)</string>
+    <string name="network_traffic_units_kilobits">千比特/秒 (kb/s)</string>
+    <string name="network_traffic_units_megabits">兆比特/秒 (Mb/s)</string>
+    <string name="network_traffic_units_bytes">字节/秒 (B/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
@@ -149,9 +149,9 @@
     <string name="daylight_header_provider_title">Image collection</string>
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_select_summary">Select custom image</string>
-    <string name="file_header_select_title">Select image</string>
+    <string name="file_header_select_title">选择图像</string>
     <string name="header_provider_disabled">停用</string>
-    <string name="static_header_provider_title">Static image</string>
+    <string name="static_header_provider_title">静态图像</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="unit_percent">\u0025</string>
