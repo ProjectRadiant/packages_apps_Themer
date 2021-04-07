@@ -31,7 +31,7 @@
     <string name="recents_title">最新应用</string>
     <string name="statusbar_title">状态栏</string>
     <string name="volume_title">音量键</string>
-    <string name="themer_title">Themer</string>
+    <string name="themer_title">主题</string>
     <string name="notifications_title">通知</string>
     <!-- General strings -->
     <string name="ok">确认</string>
@@ -92,11 +92,11 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Network traffic monitor</string>
     <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
-    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_location_title">定位</string>
     <string name="network_traffic_location_disable">关闭</string>
     <string name="network_traffic_location_statusbar">状态栏</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_title">显示模式</string>
     <string name="network_traffic_mode_up">仅上传</string>
     <string name="network_traffic_mode_down">仅下载</string>
     <string name="network_traffic_mode_all">上传和下载</string>
@@ -123,8 +123,8 @@
     <string name="prebuilt_accents_title">Accent colours</string>
     <string name="prebuilt_accents_summary">You can pick an accent below using our RGB Accent picker.</string>
     <string name="themes_preview_button_text">Nezuko</string>
-    <string name="preview_color_select_text">SELECT COLOUR</string>
-    <string name="preview_color_selected_accent">Default</string>
+    <string name="preview_color_select_text">选择颜色</string>
+    <string name="preview_color_selected_accent">预设</string>
     <!-- Accent color picker -->
     <string name="accent_color_title">RGB accent color picker</string>
     <!-- QS tint -->
@@ -150,7 +150,7 @@
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_select_summary">Select custom image</string>
     <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
+    <string name="header_provider_disabled">停用</string>
     <string name="static_header_provider_title">Static image</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
@@ -173,11 +173,11 @@
     <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (bold)</string>
     <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
     <!-- Lock Icon -->
-    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_title">锁定图示</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
+    <string name="lockscreen_status_bar_title">状态栏</string>
+    <string name="lockscreen_status_bar_summary">在锁屏时显示状态栏</string>
     <!-- QS Disco -->
     <string name="qs_tiles_title">Tiles</string>
     <string name="qs_bg_use_disco">QS tile disco</string>
@@ -188,8 +188,8 @@
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
+    <string name="theme_type_title">系统主题</string>
+    <string name="theme_type_summary">选择主题</string>
     <string name="theme_type_light">Light</string>
     <string name="theme_type_pitch_black">Google dark</string>
     <string name="theme_type_solarized_dark">Solarized dark</string>
