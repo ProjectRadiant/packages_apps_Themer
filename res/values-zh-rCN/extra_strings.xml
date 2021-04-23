@@ -16,12 +16,12 @@
     <string name="clock_style_summary">自定义锁屏时钟</string>
     <!-- App Title -->
     <string name="extra_settings_title">Nezuko主题</string>
-    <string name="extra_settings_summary">Slaying demons but with a different kimono.</string>
+    <string name="extra_settings_summary">穿上不同的和服斩杀恶魔吧。</string>
     <!-- Categories -->
     <string name="button_title">按钮</string>
     <string name="traffic_title">网络流量指示器</string>
     <string name="traffic_indicators">流量指示器</string>
-    <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
+    <string name="traffic_summary">在状态栏或快速设置上显示即时流量</string>
     <string name="gestures_title">手势</string>
     <string name="lockscreen_title">锁屏</string>
     <string name="misc_title">杂项</string>
@@ -51,7 +51,7 @@
     <string name="fprint_sucess_vib_summary">指纹认证成功时震动</string>
     <!-- Show LTE/4G switch -->
     <string name="show_fourg_title">显示4G代替LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
+    <string name="show_fourg_summary">用4G信号图标替换LTE图标</string>
     <!-- Statusbar Clock -->
     <string name="status_bar_clock_date_title">时钟和日期</string>
     <string name="status_bar_clock_date_summary">自定义您的状态栏时钟和日期</string>
@@ -88,10 +88,10 @@
     <!-- Advanced Reboot -->
     <string name="reboot">重启</string>
     <string name="global_actions_advanced_reboot_title">开启高级重启</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
+    <string name="global_actions_advanced_reboot_summary">显示进入恢复模式以及bootloader的选项</string>
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">网络流量监测</string>
-    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_settings_summary">显示并自定义网络使用情况</string>
     <string name="network_traffic_location_title">定位</string>
     <string name="network_traffic_location_disable">关闭</string>
     <string name="network_traffic_location_statusbar">状态栏</string>
@@ -112,93 +112,93 @@
     <string name="network_traffic_units_kilobits">千比特/秒 (kb/s)</string>
     <string name="network_traffic_units_megabits">兆比特/秒 (Mb/s)</string>
     <string name="network_traffic_units_bytes">字节/秒 (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_units_kilobytes">千字节/秒 (kB/s)</string>
+    <string name="network_traffic_units_megabytes">兆字节/秒 (MB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
     <string name="network_traffic_hidearrow_summary">隐藏网络流量指示器箭头</string>
     <string name="network_traffic_refresh_interval_title">刷新间隔</string>
     <string name="network_traffic_refresh_interval_summary">重新测量速度的持续时间</string>
     <string name="unit_seconds">秒</string>
     <!-- Accent colours -->
-    <string name="prebuilt_accents_title">Accent colours</string>
-    <string name="prebuilt_accents_summary">You can pick an accent below using our RGB Accent picker.</string>
+    <string name="prebuilt_accents_title">主题色</string>
+    <string name="prebuilt_accents_summary">您可以在下方的选色器中选择主色调</string>
     <string name="themes_preview_button_text">Nezuko</string>
     <string name="preview_color_select_text">选择颜色</string>
     <string name="preview_color_selected_accent">预设</string>
     <!-- Accent color picker -->
-    <string name="accent_color_title">RGB accent color picker</string>
+    <string name="accent_color_title">RGB颜色选择器</string>
     <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
-    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles. Restart required.</string>
+    <string name="qs_bg_use_new_tint">以主色调为快速设定图标着色</string>
+    <string name="qs_bg_use_new_tint_summary">以主题色着色快速设定图标，需要重新启动</string>
     <!-- Themer -->
-    <string name="theme_customization_icon_shape_title">App icon shape picker</string>
-    <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
-    <string name="theme_customization_font_title">Font picker</string>
+    <string name="theme_customization_icon_shape_title">应用图标形状</string>
+    <string name="theme_customization_sysui_icons_title">自定义系统界面图标标题</string>
+    <string name="theme_customization_font_title">字体选择</string>
     <!-- QS themes -->
-    <string name="qs_themes_category_title">QS Themes</string>
+    <string name="qs_themes_category_title">快速设定主题</string>
     <!-- Custom header -->
-    <string name="custom_header_browse_summary">Click on any image to use for static mode</string>
-    <string name="custom_header_browse_summary_new">Browse all available header collections</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_pick_summary">Select an image to use for static mode</string>
-    <string name="custom_header_pick_title">Select header image</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_summary">Display image at top of the notification panel</string>
-    <string name="custom_header_title">Custom header</string>
-    <string name="daylight_header_pack_title">Header image collection</string>
-    <string name="daylight_header_provider_title">Image collection</string>
-    <string name="file_header_provider_title">Custom image</string>
-    <string name="file_header_select_summary">Select custom image</string>
+    <string name="custom_header_browse_summary">点击任何图片使用静态模式</string>
+    <string name="custom_header_browse_summary_new">浏览所有可用的标题图标合集</string>
+    <string name="custom_header_browse_title">浏览已安装标题图标</string>
+    <string name="custom_header_pick_summary">选择用于静态模式的图片</string>
+    <string name="custom_header_pick_title">选择标题图片</string>
+    <string name="custom_header_provider_title">标题提供者</string>
+    <string name="custom_header_summary">在通知栏顶部显示图标</string>
+    <string name="custom_header_title">自定义标题</string>
+    <string name="daylight_header_pack_title">标题图片合集</string>
+    <string name="daylight_header_provider_title">图片合集</string>
+    <string name="file_header_provider_title">自定义图片</string>
+    <string name="file_header_select_summary">选择自定义图片</string>
     <string name="file_header_select_title">选择图像</string>
     <string name="header_provider_disabled">停用</string>
     <string name="static_header_provider_title">静态图像</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+    <string name="status_bar_custom_header_shadow_summary">在明亮图片上获得更好视觉效果</string>
+    <string name="status_bar_custom_header_shadow_title">标题图片阴影</string>
     <string name="unit_percent">\u0025</string>
     <!-- Volume Panel Plugin -->
-    <string name="volume_panel">Volume panel style</string>
-    <string name="volume_panel_aosp">AOSP (Default)</string>
-    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel">音量面板样式</string>
+    <string name="volume_panel_aosp">AOSP (预设)</string>
+    <string name="volume_panel_compact">紧凑</string>
     <string name="volume_panel_oreo">Oreo</string>
-    <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_tiled">图块</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
-    <string name="lock_screen_custom_clock_face_default_bold">Default (bold)</string>
-    <string name="lock_screen_custom_clock_face_analog">Analog</string>
-    <string name="lock_screen_custom_clock_face_bubble">Bubble</string>
-    <string name="lock_screen_custom_clock_face_samsung">Samsung</string>
-    <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (bold)</string>
-    <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
+    <string name="lock_screen_custom_clock_face_category">锁屏时钟</string>
+    <string name="lock_screen_custom_clock_face_title">锁屏时钟样式</string>
+    <string name="lock_screen_custom_clock_face_default">预设</string>
+    <string name="lock_screen_custom_clock_face_default_bold">预设 (粗体)</string>
+    <string name="lock_screen_custom_clock_face_analog">指针</string>
+    <string name="lock_screen_custom_clock_face_bubble">泡泡</string>
+    <string name="lock_screen_custom_clock_face_samsung">三星</string>
+    <string name="lock_screen_custom_clock_face_samsung_bold">三星 (粗体)</string>
+    <string name="lock_screen_custom_clock_face_typographic">文字</string>
     <!-- Lock Icon -->
     <string name="lockscreen_lock_icon_title">锁定图示</string>
-    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
+    <string name="lockscreen_lock_icon_summary">锁屏时显示锁定图标</string>
     <!-- Show Statusbar on Lockscreen -->
     <string name="lockscreen_status_bar_title">状态栏</string>
     <string name="lockscreen_status_bar_summary">在锁屏时显示状态栏</string>
     <!-- QS Disco -->
-    <string name="qs_tiles_title">Tiles</string>
-    <string name="qs_bg_use_disco">QS tile disco</string>
-    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful! Restart required.</string>
+    <string name="qs_tiles_title">快速设置圆块</string>
+    <string name="qs_bg_use_disco">彩色圆块</string>
+    <string name="qs_bg_use_disco_summary">让快速设定更色彩缤纷！需要重新启动</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">通话震动选项</string>
+    <string name="incall_vibrate_connect_title">拨通时震动</string>
+    <string name="incall_vibrate_call_wait_title">等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时震动</string>
     <!-- Themes -->
     <string name="theme_type_title">系统主题</string>
     <string name="theme_type_summary">选择主题</string>
-    <string name="theme_type_light">Light</string>
-    <string name="theme_type_pitch_black">Google dark</string>
-    <string name="theme_type_solarized_dark">Solarized dark</string>
-    <string name="theme_type_baked_green">Baked Green</string>
+    <string name="theme_type_light">明亮</string>
+    <string name="theme_type_pitch_black">Google 深色</string>
+    <string name="theme_type_solarized_dark">过曝深色</string>
+    <string name="theme_type_baked_green">幽暗绿</string>
     <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Dark Grey</string>
-    <string name="theme_type_du_pitchblack">Pitch black</string>
-    <string name="theme_type_material_ocean">Material Ocean</string>
-    <string name="theme_type_clear_spring">Clear Spring</string>
-    <string name="themes_info">You might be wondering why you are here.</string>
-    <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
+    <string name="theme_type_dark_grey">深灰色</string>
+    <string name="theme_type_du_pitchblack">沥青黑</string>
+    <string name="theme_type_material_ocean">Material 海洋</string>
+    <string name="theme_type_clear_spring">清澈春光</string>
+    <string name="themes_info">您一定在想为何自己身处此地。</string>
+    <string name="themes_summary">我们将您带到这个空旷的页面，便是为了让您好好欣赏所套用的主题</string>
 </resources>
