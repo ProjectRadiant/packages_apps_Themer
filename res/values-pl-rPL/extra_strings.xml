@@ -12,64 +12,64 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_title">Styl zegara</string>
+    <string name="clock_style_summary">Dostosuj zegar ekranu blokady</string>
     <!-- App Title -->
-    <string name="extra_settings_title">Nezuko Themes</string>
+    <string name="extra_settings_title">Nezuko Motywy</string>
     <string name="extra_settings_summary">Slaying demons but with a different kimono.</string>
     <!-- Categories -->
     <string name="button_title">Buttons</string>
-    <string name="traffic_title">Network Traffic Indicator</string>
-    <string name="traffic_indicators">Traffic Indicator</string>
-    <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="recents_title">Recents apps</string>
-    <string name="statusbar_title">Status bar</string>
+    <string name="traffic_title">Monitor ruchu sieciowego</string>
+    <string name="traffic_indicators">Monitor ruchu</string>
+    <string name="traffic_summary">Pokaż na żywo wykorzystanie ruchu sieciowego na pasku stanu lub w QS.</string>
+    <string name="gestures_title">Gesty</string>
+    <string name="lockscreen_title">Ekran blokady</string>
+    <string name="misc_title">Inne</string>
+    <string name="navbar_title">Pasek nawigacyjny</string>
+    <string name="powermenu_title">Menu zasilania</string>
+    <string name="quicksettings_title">Szybkie ustawienia</string>
+    <string name="recents_title">Poprzednie aplikacje</string>
+    <string name="statusbar_title">Pasek stanu</string>
     <string name="volume_title">Volume rockers</string>
     <string name="themer_title">Themer</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">Powiadomienia</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
-    <string name="default_string">Default</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="default_string">Domyślnie</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to take a screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot.</string>
+    <string name="three_finger_gesture">Przeciągnij palcem aby zrobić screenshot</string>
+    <string name="three_finger_gesture_summary">Przesuń w dół trzema palcami aby zrobić zrzut ekranu.</string>
     <!-- Fingerprint unlock -->
-    <string name="fp_title">Fingerprint sensor</string>
-    <string name="fp_unlock_keystore_title">Force FP authentication</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+    <string name="fp_title">Czujnik linii papilarnych</string>
+    <string name="fp_unlock_keystore_title">Wymieszanie autoryzacji FP</string>
+    <string name="fp_unlock_keystore_summary">Odblokowywanie urządzenia za pomocą odcisku palca po restarcie lub zablokowaniu</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_sucess_vib_title">Wibracje przy uwierzytelnianiu odciskiem palca</string>
+    <string name="fprint_sucess_vib_summary">Wibracje po pomyślnym uwierzytelnieniu odcisku palca</string>
     <!-- Show LTE/4G switch -->
-    <string name="show_fourg_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
+    <string name="show_fourg_title">Pokaż 4G zamiast LTE</string>
+    <string name="show_fourg_summary">Zastąp wskaźniki paska stanu LTE wskaźnikami 4G</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_clock_date_title">Zegar i data</string>
+    <string name="status_bar_clock_date_summary">Dostosuj zegar i datę na pasku stanu</string>
+    <string name="status_bar_clock_title">Ustawienia zegara</string>
+    <string name="status_bar_clock_show">Pokaż zegar i datę</string>
+    <string name="status_bar_clock_style_title">Styl zegara</string>
+    <string name="status_bar_clock_style_right">Prawo</string>
+    <string name="status_bar_clock_style_center">Centralnie</string>
+    <string name="status_bar_clock_style_left">Lewo</string>
+    <string name="status_bar_date_title">Ustawienia daty</string>
+    <string name="status_bar_am_pm_title">Styl AP/PM</string>
+    <string name="status_bar_am_pm_info">24-godzinny zegar jest włączony</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="status_bar_am_pm_small">Mały</string>
+    <string name="status_bar_am_pm_hidden">Ukryte (domyślnie)</string>
+    <string name="clock_seconds_display">Pokaż sekundy</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetlanie niestandardowej daty przed zegarem</string>
     <string name="clock_date_display_none">Don\'t show</string>
     <string name="clock_date_display_small">Small font size</string>
     <string name="clock_date_display_normal">Normal font size</string>
