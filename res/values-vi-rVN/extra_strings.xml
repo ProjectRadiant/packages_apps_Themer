@@ -12,16 +12,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_title">Kiểu đồng hồ</string>
+    <string name="clock_style_summary">Tùy chỉnh đồng hồ màn hình khóa</string>
     <!-- App Title -->
-    <string name="extra_settings_title">Nezuko Themes</string>
-    <string name="extra_settings_summary">Slaying demons but with a different kimono.</string>
+    <string name="extra_settings_title">Chủ đề Nezuko</string>
+    <string name="extra_settings_summary">Giết quỷ nhưng với một bộ kimono khác.</string>
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="traffic_title">Network Traffic Indicator</string>
-    <string name="traffic_indicators">Traffic Indicator</string>
-    <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
+    <string name="button_title">Phím</string>
+    <string name="traffic_title">Chỉ báo lưu lượng mạng</string>
+    <string name="traffic_indicators">Chỉ báo giao thông</string>
+    <string name="traffic_summary">Hiển thị mức sử dụng lưu lượng mạng trực tiếp trên Thanh trạng thái hoặc trong QS.</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
