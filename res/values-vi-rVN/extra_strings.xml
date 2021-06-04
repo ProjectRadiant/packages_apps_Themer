@@ -145,47 +145,47 @@
     <string name="custom_header_provider_title">Nhà cung cấp tiêu đề</string>
     <string name="custom_header_summary">Hiển thị hình ảnh ở đầu bảng thông báo</string>
     <string name="custom_header_title">Tiêu đề tùy chỉnh</string>
-    <string name="daylight_header_pack_title">Header image collection</string>
-    <string name="daylight_header_provider_title">Image collection</string>
-    <string name="file_header_provider_title">Custom image</string>
-    <string name="file_header_select_summary">Select custom image</string>
-    <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="static_header_provider_title">Static image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+    <string name="daylight_header_pack_title">Bộ sưu tập hình ảnh tiêu đề</string>
+    <string name="daylight_header_provider_title">Bộ sưu tập hình ảnh</string>
+    <string name="file_header_provider_title">Hình ảnh tùy chỉnh</string>
+    <string name="file_header_select_summary">Chọn hình ảnh tùy chỉnh</string>
+    <string name="file_header_select_title">Chọn hình ảnh</string>
+    <string name="header_provider_disabled">Vô hiệu hoá</string>
+    <string name="static_header_provider_title">Hình ảnh tĩnh</string>
+    <string name="status_bar_custom_header_shadow_summary">Để có khả năng hiển thị tốt hơn trên hình ảnh sáng</string>
+    <string name="status_bar_custom_header_shadow_title">Bóng hình ảnh tiêu đề</string>
     <string name="unit_percent">\u0025</string>
     <!-- Volume Panel Plugin -->
-    <string name="volume_panel">Volume panel style</string>
-    <string name="volume_panel_aosp">AOSP (Default)</string>
-    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel">Bảng điều khiển âm lượng</string>
+    <string name="volume_panel_aosp">AOSP (Mặc định)</string>
+    <string name="volume_panel_compact">Gọn nhẹ</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
-    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
-    <string name="lock_screen_custom_clock_face_default">Default</string>
-    <string name="lock_screen_custom_clock_face_default_bold">Default (bold)</string>
+    <string name="lock_screen_custom_clock_face_category">Đồng hồ màn hình khóa</string>
+    <string name="lock_screen_custom_clock_face_title">Phong cách đồng hồ màn hình khóa</string>
+    <string name="lock_screen_custom_clock_face_default">Mặc định</string>
+    <string name="lock_screen_custom_clock_face_default_bold">Mặc định (đậm)</string>
     <string name="lock_screen_custom_clock_face_analog">Analog</string>
-    <string name="lock_screen_custom_clock_face_bubble">Bubble</string>
+    <string name="lock_screen_custom_clock_face_bubble">Bong bóng</string>
     <string name="lock_screen_custom_clock_face_samsung">Samsung</string>
-    <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (bold)</string>
-    <string name="lock_screen_custom_clock_face_typographic">Typographic</string>
+    <string name="lock_screen_custom_clock_face_samsung_bold">Samsung (đậm)</string>
+    <string name="lock_screen_custom_clock_face_typographic">Đánh máy</string>
     <!-- Lock Icon -->
-    <string name="lockscreen_lock_icon_title">Lock icon</string>
-    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
+    <string name="lockscreen_lock_icon_title">Biểu tượng khoá</string>
+    <string name="lockscreen_lock_icon_summary">Hiển thị biểu tượng khóa trên màn hình khóa</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
+    <string name="lockscreen_status_bar_title">Thanh trạng thái</string>
+    <string name="lockscreen_status_bar_summary">Hiển thị thanh trạng thái trên màn hình khóa</string>
     <!-- QS Disco -->
-    <string name="qs_tiles_title">Tiles</string>
+    <string name="qs_tiles_title">Gạch</string>
     <string name="qs_bg_use_disco">QS tile disco</string>
-    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful! Restart required.</string>
+    <string name="qs_bg_use_disco_summary">Làm cho gạch QS của bạn đầy màu sắc! Yêu cầu khởi động lại.</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi cuộc gọi đang chờ</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Themes -->
     <string name="theme_type_title">System theme</string>
