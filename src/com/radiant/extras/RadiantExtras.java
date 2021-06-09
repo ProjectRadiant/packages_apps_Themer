@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.extra.settings;
+package com.radiant.extras;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class ExtraSettings extends SettingsPreferenceFragment {
+public class RadiantExtras extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.extra_settings);
+        addPreferencesFromResource(R.xml.radiant_extras);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.Radiant;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

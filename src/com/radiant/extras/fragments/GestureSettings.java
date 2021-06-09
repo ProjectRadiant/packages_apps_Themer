@@ -1,4 +1,4 @@
-package com.extra.settings.fragments;
+package com.radiant.extras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,12 +13,12 @@ public class GestureSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.extra_settings_gestures);
+        addPreferencesFromResource(R.xml.radiant_extras_gestures);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.Radiant;
     }
 
 }

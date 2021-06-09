@@ -1,4 +1,4 @@
-package com.extra.settings.fragments;
+package com.radiant.extras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 import android.app.Activity;
@@ -28,7 +28,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.extra_settings_recents);
+        addPreferencesFromResource(R.xml.radiant_extras_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -43,6 +43,6 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.Radiant;
     }
 }
