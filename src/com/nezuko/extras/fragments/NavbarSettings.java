@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2015 The CyanogenMod Project
+ * Copyright (C) 2014 TeamEos
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,45 +14,35 @@
  * limitations under the License.
  */
 
-package com.extra.settings.fragments;
+package com.nezuko.extras.fragments;
 
-import android.content.Context;
-import android.content.ContentResolver;
+import java.util.ArrayList;
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
-import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.os.UserManager;
 import androidx.preference.ListPreference;
+import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 import android.provider.Settings;
-import com.android.settings.R;
-import androidx.annotation.NonNull;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.logging.MetricsLogger;
+import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.R;
 
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
-
-
-public class PowerMenuSettings extends SettingsPreferenceFragment
-                implements Preference.OnPreferenceChangeListener {
-
+public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-        addPreferencesFromResource(R.xml.extra_settings_power);
-
-        final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+        addPreferencesFromResource(R.xml.nezuko_extras_navigation);
 
     }
 
@@ -64,7 +54,6 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.NEZUKO;
     }
-
 }

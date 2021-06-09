@@ -16,7 +16,7 @@
  *
  */
 
-package com.extra.settings.fragments;
+package com.nezuko.extras.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -44,7 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.extra_settings_button);
+        addPreferencesFromResource(R.xml.nezuko_extras_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
@@ -57,7 +57,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.NEZUKO;
     }
 
 }

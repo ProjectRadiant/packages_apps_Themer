@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.extra.settings.preferences;
+package com.nezuko.extras.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -81,7 +81,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mSeekBar = new SeekBar(context, attrs);
         mSeekBar.setMax(mMax - mMin);
         mSeekBar.setOnSeekBarChangeListener(this);
-        setLayoutResource(R.layout.preference_extra_seekbar);
+        setLayoutResource(R.layout.preference_nezuko_seekbar);
     }
 
     public CustomSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr) {

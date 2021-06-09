@@ -1,4 +1,4 @@
-package com.extra.settings.fragments;
+package com.nezuko.extras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -11,43 +11,51 @@ import android.content.ContentResolver;
 import android.content.res.Resources;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.Utils;
+import android.util.Log;
+
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Collections;
 
-public class QuickSettings extends SettingsPreferenceFragment implements
+public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
-
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.extra_settings_quicksettings);
+        addPreferencesFromResource(R.xml.nezuko_extras_statusbar);
 
-        PreferenceScreen prefScreen = getPreferenceScreen();
-        ContentResolver resolver = getActivity().getContentResolver();
+        PreferenceScreen prefSet = getPreferenceScreen();
 
-        }
+    }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
 
         return false;
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.NEZUKO;
     }
 
 }

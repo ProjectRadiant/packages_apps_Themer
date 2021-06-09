@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.extra.settings.fragments;
+package com.nezuko.extras.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -44,7 +44,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.extra_settings_lockscreen);
+        addPreferencesFromResource(R.xml.nezuko_extras_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -60,7 +60,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTRA_SETTINGS;
+        return MetricsProto.MetricsEvent.NEZUKO;
     }
 
 }

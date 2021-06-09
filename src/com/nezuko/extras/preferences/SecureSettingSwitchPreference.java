@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.extra.settings.preferences;
+package com.nezuko.extras.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
