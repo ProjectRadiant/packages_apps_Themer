@@ -78,20 +78,20 @@
     <string name="clock_date_style_lowercase">Chữ thường</string>
     <string name="clock_date_style_uppercase">Chữ hoa</string>
     <string name="clock_date_format_custom">Định dạng Java tuỳ chỉnh</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="statusbar_items_categories_title">Status bar items categories</string>
+    <string name="clock_date_format">Định dạng ngày tháng</string>
+    <string name="clock_date_string_edittext_title">Phải ở trong DateFormat, ví dụ. MM / dd / yy</string>
+    <string name="clock_date_string_edittext_summary">Nhập chuỗi</string>
+    <string name="clock_date_right">Bên phải</string>
+    <string name="clock_date_left">Bên trái</string>
+    <string name="clock_date_position">Vị trí ngày tháng</string>
+    <string name="statusbar_items_categories_title">Danh mục các mục trên thanh trạng thái</string>
     <!-- Advanced Reboot -->
-    <string name="reboot">Restart</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
+    <string name="reboot">Khởi động lại</string>
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị các tùy chọn cho khôi phục và bộ nạp khởi động</string>
     <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Network traffic monitor</string>
-    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
+    <string name="network_traffic_settings_summary">Hiển thị và tùy chỉnh mức lưu lượng mạng hiện tại</string>
     <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Statusbar</string>
