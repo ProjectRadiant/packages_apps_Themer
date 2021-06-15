@@ -24,4 +24,11 @@
           android:fragment="com.nezuko.extras.fragments.Themer"
           android:icon="@drawable/ic_settings_miscs"/>
 
+     <!-- Power -->
+     <Preference
+          android:key="power_category"
+          android:title="@string/powermenu_title" 
+          android:fragment="com.nezuko.extras.fragments.PowerMenuSettings"
+          android:icon="@drawable/ic_settings_powermenu"/>
+
 </PreferenceScreen>
