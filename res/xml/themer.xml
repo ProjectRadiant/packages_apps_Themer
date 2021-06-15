@@ -27,7 +27,22 @@
          android:key="accent_color"
          android:title="@string/accent_color_title"
          android:defaultValue="0xffff4081"
+         android:dependency="use_wall_accent"
          android:persistent="false" />
+
+    <com.nezuko.extras.preferences.SystemSettingSwitchPreference
+        android:key="use_wall_accent"
+        android:disableDependentsState="true"
+        android:title="@string/use_wall_accent_string"
+        android:summary="@string/use_wall_accent_summary"
+        android:defaultValue="false" />
+
+     <com.nezuko.extras.preferences.SystemSettingListPreference
+       android:key="auto_accent_type"
+       android:title="@string/auto_accent_picker_title"
+       android:entries="@array/auto_accent_picker_entries"
+       android:entryValues="@array/auto_accent_picker_values" />
+
 
     <ListPreference
        android:key="android.theme.customization.adaptive_icon_shape"

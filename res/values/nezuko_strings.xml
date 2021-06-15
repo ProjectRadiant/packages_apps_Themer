@@ -71,4 +71,15 @@
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
 
+    <string name="use_wall_accent_string">Wallpaper based accent</string>
+    <string name="use_wall_accent_summary">(BETA) Auto sets an accent color based on your wallpaper</string>
+
+    <!-- Auto Accent Picker -->
+    <string name="auto_accent_picker_title">Accent generation algorithm</string>
+    <string name="auto_accent_picker_vibrant">Vibrant</string>
+    <string name="auto_accent_picker_vibrant_light">Vibrant Light</string>
+    <string name="auto_accent_picker_dominant">Dominant</string>
+    <string name="auto_accent_picker_dominant_bright">Dominant Bright</string>
+    <string name="auto_accent_picker_avg">Average</string>
+
 </resources>
