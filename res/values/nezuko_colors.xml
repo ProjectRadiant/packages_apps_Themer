@@ -13,15 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/nezuko_extras_title" >
+<resources>
 
-     <!-- Themer -->
-     <Preference
-          android:key="themes_category"
-          android:title="@string/themer_title" 
-          android:fragment="com.nezuko.extras.fragments.Themer"
-          android:icon="@drawable/ic_settings_miscs"/>
-
-</PreferenceScreen>
+    <color name="themes_preview_background">#0f000000</color>
+    <color name="preview_text">#ff000000</color>
+    <color name="preview_container_border">#ECECEC</color>
+    <color name="wifi">#86aae3</color>
+    <color name="location">#ffaf4d</color>
+    <color name="themes_preview_card">#ffffffff</color>
+</resources>
