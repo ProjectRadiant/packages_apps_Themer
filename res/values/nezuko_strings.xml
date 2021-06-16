@@ -20,13 +20,14 @@
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="navbar_title">Navigation bar</string>
-    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_title">Power</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
     <string name="themer_title">Themer</string>
+    <string name="accent_title">Accents</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -81,5 +82,4 @@
     <string name="auto_accent_picker_dominant">Dominant</string>
     <string name="auto_accent_picker_dominant_bright">Dominant Bright</string>
     <string name="auto_accent_picker_avg">Average</string>
-
 </resources>

@@ -41,8 +41,6 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.nezuko.extras.display.AccentColorPreferenceController;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -96,7 +94,6 @@ public class Themer extends DashboardFragment {
     private static List<AbstractPreferenceController> buildPreferenceControllers(
             Context context, Lifecycle lifecycle, Fragment fragment) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new AccentColorPreferenceController(context));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,

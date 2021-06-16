@@ -23,26 +23,11 @@
        android:layout="@layout/themes_accent_preview"
        android:selectable="false" />
 
-      <net.margaritov.preference.colorpicker.ColorPickerPreference
-         android:key="accent_color"
-         android:title="@string/accent_color_title"
-         android:defaultValue="0xffff4081"
-         android:dependency="use_wall_accent"
-         android:persistent="false" />
-
-    <com.nezuko.support.preferences.SystemSettingSwitchPreference
-        android:key="use_wall_accent"
-        android:disableDependentsState="true"
-        android:title="@string/use_wall_accent_string"
-        android:summary="@string/use_wall_accent_summary"
-        android:defaultValue="false" />
-
-     <com.nezuko.support.preferences.SystemSettingListPreference
-       android:key="auto_accent_type"
-       android:title="@string/auto_accent_picker_title"
-       android:entries="@array/auto_accent_picker_entries"
-       android:entryValues="@array/auto_accent_picker_values" />
-
+     <!-- Power -->
+     <Preference
+          android:key="accent_category"
+          android:title="@string/accent_title" 
+          android:fragment="com.nezuko.extras.fragments.Accents"/>
 
     <ListPreference
        android:key="android.theme.customization.adaptive_icon_shape"
