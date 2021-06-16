@@ -30,14 +30,14 @@
          android:dependency="use_wall_accent"
          android:persistent="false" />
 
-    <com.nezuko.extras.preferences.SystemSettingSwitchPreference
+    <com.nezuko.support.preferences.SystemSettingSwitchPreference
         android:key="use_wall_accent"
         android:disableDependentsState="true"
         android:title="@string/use_wall_accent_string"
         android:summary="@string/use_wall_accent_summary"
         android:defaultValue="false" />
 
-     <com.nezuko.extras.preferences.SystemSettingListPreference
+     <com.nezuko.support.preferences.SystemSettingListPreference
        android:key="auto_accent_type"
        android:title="@string/auto_accent_picker_title"
        android:entries="@array/auto_accent_picker_entries"
