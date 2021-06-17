@@ -52,4 +52,12 @@
           android:fragment="com.nezuko.extras.fragments.MiscSettings"
           android:icon="@drawable/ic_settings_miscs"/>
 
+     <!-- LS -->
+     <Preference
+          android:key="sb_cat"
+          android:title="@string/statusbar_title" 
+          android:fragment="com.nezuko.extras.fragments.StatusBarSettings"
+          android:icon="@drawable/ic_settings_statusbar"/>
+
+
 </PreferenceScreen>
