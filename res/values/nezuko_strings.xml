@@ -28,7 +28,7 @@
     <string name="notifications_title">Notifications</string>
     <string name="themer_title">Themer</string>
     <string name="accent_title">Accents</string>
-
+     <string name="accent_summary">RGB accent picker, Auto accents</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>

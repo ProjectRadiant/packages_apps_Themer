@@ -27,6 +27,7 @@
      <Preference
           android:key="accent_category"
           android:title="@string/accent_title" 
+          android:summary="@string/accent_summary"
           android:fragment="com.nezuko.extras.fragments.Accents"/>
 
     <ListPreference
