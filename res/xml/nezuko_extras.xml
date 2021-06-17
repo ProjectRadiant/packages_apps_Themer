@@ -22,7 +22,7 @@
           android:key="themes_category"
           android:title="@string/themer_title" 
           android:fragment="com.nezuko.extras.fragments.Themer"
-          android:icon="@drawable/ic_settings_miscs"/>
+          android:icon="@drawable/ic_settings_themes"/>
 
      <!-- Power -->
      <Preference
