@@ -45,4 +45,11 @@
           android:fragment="com.nezuko.extras.fragments.LockScreenSettings"
           android:icon="@drawable/ic_settings_lockscreens"/>
 
+     <!-- LS -->
+     <Preference
+          android:key="misc_cat"
+          android:title="@string/misc_title" 
+          android:fragment="com.nezuko.extras.fragments.MiscSettings"
+          android:icon="@drawable/ic_settings_miscs"/>
+
 </PreferenceScreen>
