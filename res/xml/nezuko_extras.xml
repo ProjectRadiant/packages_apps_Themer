@@ -31,11 +31,18 @@
           android:fragment="com.nezuko.extras.fragments.PowerMenuSettings"
           android:icon="@drawable/ic_settings_powermenu"/>
 
-     <!-- Power -->
+     <!-- QS -->
      <Preference
           android:key="qs_cat"
           android:title="@string/quicksettings_title" 
           android:fragment="com.nezuko.extras.fragments.QuickSettings"
           android:icon="@drawable/ic_settings_quicksettings"/>
+
+     <!-- LS -->
+     <Preference
+          android:key="lockscreen_cat"
+          android:title="@string/lockscreen_title" 
+          android:fragment="com.nezuko.extras.fragments.LockScreenSettings"
+          android:icon="@drawable/ic_settings_lockscreens"/>
 
 </PreferenceScreen>
