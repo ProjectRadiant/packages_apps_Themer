@@ -23,6 +23,13 @@
        android:layout="@layout/themes_accent_preview"
        android:selectable="false" />
 
+    <com.nezuko.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_panel_bg_use_new_tint"
+        android:title="@string/qs_bg_use_new_tint"
+        android:summary="@string/qs_bg_use_new_tint_summary"
+        android:defaultValue="true" />
+
+
      <!-- Power -->
      <Preference
           android:key="accent_category"
