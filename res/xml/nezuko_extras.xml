@@ -31,4 +31,11 @@
           android:fragment="com.nezuko.extras.fragments.PowerMenuSettings"
           android:icon="@drawable/ic_settings_powermenu"/>
 
+     <!-- Power -->
+     <Preference
+          android:key="qs_cat"
+          android:title="@string/quicksettings_title" 
+          android:fragment="com.nezuko.extras.fragments.QuickSettings"
+          android:icon="@drawable/ic_settings_quicksettings"/>
+
 </PreferenceScreen>
