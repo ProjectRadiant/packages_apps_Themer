@@ -181,4 +181,9 @@
     <string name="status_bar_system_icons_title">System icons</string>
     <string name="status_bar_system_icons_summary">Control visibility of status bar icons</string>
 
+    <!-- Notification section -->
+    <string name="general_title">Notifications</string>
+    <string name="notification_guts_kill_app_button_title">Kill app button</string>
+    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+
 </resources>
