@@ -30,11 +30,6 @@
          android:dependency="use_wall_accent"
          android:persistent="false" />
 
-    <!-- Preview -->
-    <com.nezuko.extras.previews.WallAc
-        android:key="wall"
-        android:layout="@layout/wallacpreview"
-        android:selectable="false"/>
 
     <com.nezuko.support.preferences.SystemSettingSwitchPreference
         android:key="use_wall_accent"
@@ -42,6 +37,12 @@
         android:title="@string/use_wall_accent_string"
         android:summary="@string/use_wall_accent_summary"
         android:defaultValue="false" />
+
+    <!-- Preview -->
+    <com.nezuko.extras.previews.WallAc
+        android:key="wall"
+        android:layout="@layout/wallacpreview"
+        android:selectable="false"/>
 
      <com.nezuko.support.preferences.SystemSettingListPreference
        android:key="auto_accent_type"
