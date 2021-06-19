@@ -27,7 +27,7 @@
             android:title="@string/qs_rows_portrait_title"
             android:max="5"
             android:min="1"
-            android:defaultValue="3"
+            android:defaultValue="2"
             settings:units="" />
 
         <com.nezuko.support.preferences.SystemSettingSeekBarPreference
