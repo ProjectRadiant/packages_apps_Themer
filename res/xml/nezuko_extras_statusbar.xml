@@ -47,7 +47,7 @@
 
 
 	<PreferenceCategory
-            android:title="@string/statusbar_icon">
+            android:title="@string/sb_ic">
 
     <com.nezuko.support.preferences.SystemSettingSwitchPreference
         android:key="show_fourg"
