@@ -24,12 +24,6 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </PreferenceScreen>
 
-    <com.nezuko.support.preferences.SystemSettingSwitchPreference
-        android:key="show_fourg"
-        android:title="@string/show_fourg_title"
-        android:summary="@string/show_fourg_summary"
-        android:defaultValue="false" />
-
 <PreferenceCategory
             android:title="@string/statusbar_gestures">
 	    <com.nezuko.support.preferences.SystemSettingSwitchPreference
@@ -50,5 +44,42 @@
            android:defaultValue="true" />
 
     </PreferenceCategory>
+
+
+	<PreferenceCategory
+            android:title="@string/statusbar_icon">
+
+    <com.nezuko.support.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg"
+        android:title="@string/show_fourg_title"
+        android:summary="@string/show_fourg_summary"
+        android:defaultValue="false" />
+
+	<com.nezuko.support.preferences.SystemSettingListPreference
+        android:key="volte_icon_style"
+ 	   android:title="@string/volte_icon_style_title"
+        android:entries="@array/volte_icon_type_entries"
+        android:entryValues="@array/volte_icon_type_values"
+        android:summary="%s"
+	   android:defaultValue="0"/>
+
+    <com.nezuko.support.preferences.SystemSettingListPreference
+        android:key="vowifi_icon"
+        android:title="@string/vowifi_icon_title"
+        android:entries="@array/vowifi_icon_entries"
+        android:entryValues="@array/vowifi_icon_values"
+        android:summary="%s"
+        android:defaultValue="0"/>
+
+    <com.nezuko.support.preferences.SystemSettingListPreference
+         	android:key="vowifi_icon_style"
+         	android:title="@string/vowifi_icon_style_title"
+         	android:entries="@array/vowifi_icon_style_entries"
+         	android:entryValues="@array/vowifi_icon_style_values"
+         	android:summary="%s"
+         	android:defaultValue="0"/>
+
+
+	</PreferenceCategory>
 
 </PreferenceScreen>
