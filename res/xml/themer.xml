@@ -40,13 +40,11 @@
           android:summary="@string/accent_summary"
           android:fragment="com.nezuko.extras.fragments.Accents"/>
 
-    <ListPreference
-       android:key="android.theme.customization.adaptive_icon_shape"
-       android:title="@string/theme_customization_icon_shape_title"/>
-
-    <ListPreference
-       android:key="android.theme.customization.icon_pack"
-       android:title="@string/theme_customization_sysui_icons_title"/>
+    <Preference 
+        android:title="@string/overlay_theme_title"
+        android:summary="@string/overlay_theme_summary" 
+        android:key="prebuilt_overlays_key" 
+        android:fragment="com.nezuko.extras.fragments.StyleSystemOverlayPreferenceFragment"/>
 
     <ListPreference
        android:layout="@layout/themes_font_preview"

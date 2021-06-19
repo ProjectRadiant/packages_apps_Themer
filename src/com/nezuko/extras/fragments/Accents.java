@@ -29,7 +29,7 @@ import com.nezuko.extras.display.AccentColorPreferenceController;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.development.OverlayCategoryPreferenceController;
+import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;

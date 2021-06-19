@@ -39,7 +39,7 @@
 
      <!-- Themer -->
     <string name="theme_customization_icon_shape_title">App icon shape picker</string>
-    <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
+    <string name="theme_customization_sysui_icons_title">SystemUI Icons</string>
     <string name="theme_customization_font_title">Font picker</string>
 
     <!-- Color Picker -->
@@ -229,5 +229,11 @@
     <string name="vowifi_icon_simple1">Simple1 Icon</string>
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
+
+    <string name="icon_normal">Default</string>
+    <string name="icon_tint">Tinted</string>
+    <string name="settings_dashboard">Nezuko extra icon type</string>
+    <string name="overlay_theme_title">Theme overlays</string>
+    <string name="overlay_theme_summary">Manage theme overlays</string>
 
 </resources>
