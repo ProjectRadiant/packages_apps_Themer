@@ -24,11 +24,4 @@
         android:key="android.theme.customization.icon_pack"
         android:title="@string/theme_customization_sysui_icons_title"/>
 
-        <com.nezuko.support.preferences.SystemSettingListPreference
-            android:key="overlay_extras_icons"
-            android:title="@string/settings_dashboard"
-            android:entries="@array/themer_icon_entries"
-            android:entryValues="@array/themer_icon_values"
-            android:defaultValue="0" />
-
 </PreferenceScreen>
