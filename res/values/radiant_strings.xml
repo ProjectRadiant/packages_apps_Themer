@@ -28,6 +28,10 @@
     <string name="notifications_title">Notifications</string>
     <string name="themes_title">Themes</string>
 
+    <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
+    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
+    <string name="icons_category">Icons</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>

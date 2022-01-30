@@ -17,11 +17,23 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/radiant_extras_title" >
 
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title" 
-            android:fragment="com.radiant.extras.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+     <Preference
+          android:key="themes_category"
+          android:title="@string/themes_title" 
+          android:fragment="com.radiant.extras.fragments.MonetSettings"
+          android:icon="@drawable/ic_themer_ext"/>
+
+     <Preference
+          android:key="lockscreen_category"
+          android:title="@string/lockscreen_title" 
+          android:fragment="com.radiant.extras.fragments.LockScreenSettings"
+          android:icon="@drawable/ic_settings_lockscreens"/>
+
+     <Preference
+          android:key="statusbar_category"
+          android:title="@string/statusbar_title" 
+          android:fragment="com.radiant.extras.fragments.StatusBarSettings"
+          android:icon="@drawable/ic_settings_statusbar"/>
+
 
 </PreferenceScreen>
