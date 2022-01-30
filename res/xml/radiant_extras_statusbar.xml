@@ -28,6 +28,12 @@
              android:summary="@string/show_fourg_icon_summary"
              android:defaultValue="false"/>
 
+          <com.radiant.support.preferences.SecureSettingSwitchPreference
+               android:key="show_combined_status_bar_signal_icons"
+               android:title="@string/combined_status_bar_signal_icons"
+               android:summary="@string/combined_status_bar_signal_icons_summary"
+               android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
