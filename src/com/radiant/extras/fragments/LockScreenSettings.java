@@ -36,20 +36,29 @@ import androidx.preference.PreferenceScreen;
 
 import android.provider.Settings;
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.dashboard.DashboardFragment;
 
-public class LockScreenSettings extends SettingsPreferenceFragment implements
+public class LockScreenSettings extends DashboardFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String TAG = "LockScreenSettings";
+
+	@Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.radiant_extras_lockscreen;
+    }
+
+    @Override
+    protected String getLogTag() {
+        return TAG;
+    }
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.radiant_extras_lockscreen);
-
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
-
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
