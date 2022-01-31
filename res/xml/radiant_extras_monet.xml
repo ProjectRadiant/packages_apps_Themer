@@ -18,35 +18,41 @@
     android:title="@string/themes_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <com.radiant.support.preferences.SystemSettingSwitchPreference
-          android:key="monet_custom_themes" 
-          android:title="@string/custom_colors"
-          android:summary="@string/custom_colors_summary"
-          android:defaultValue="false"
-          android:icon="@drawable/ic_colors"/>
+    <PreferenceCategory
+        android:key="monet_category"
+        android:title="@string/monet_cat">
 
-     <com.radiant.support.preferences.SystemSettingSwitchPreference
-          android:key="monet_plain_theme" 
-          android:title="@string/plain_colors"
-          android:summary="@string/plain_colors_summary"
-          android:dependency="monet_custom_themes"
-          android:defaultValue="false"
-          android:icon="@drawable/ic_plain"/>
+          <com.radiant.support.preferences.SystemSettingSwitchPreference
+               android:key="monet_custom_themes" 
+               android:title="@string/custom_colors"
+               android:summary="@string/custom_colors_summary"
+               android:defaultValue="false"
+               android:icon="@drawable/ic_colors"/>
 
-     <com.radiant.support.preferences.SwitchPreference
-          android:title="@string/pitch_colors"
-          android:key="pitch_theme"
-          android:summary="@string/pitch_colors_summary"
-          android:dependency="monet_custom_themes"
-          android:icon="@drawable/ic_dark"/>
+          <com.radiant.support.preferences.SystemSettingSwitchPreference
+               android:key="monet_plain_theme" 
+               android:title="@string/plain_colors"
+               android:summary="@string/plain_colors_summary"
+               android:dependency="monet_custom_themes"
+               android:defaultValue="false"
+               android:icon="@drawable/ic_plain"/>
 
-     <Preference
-          android:key="monet_wall" 
-          android:title="@string/monet_wall"
-          android:summary="@string/monet_wall_summary"
-          android:dependency="monet_custom_themes"
-          android:icon="@drawable/ic_settings_wallpaper_white"
-          settings:controller="com.radiant.settings.controller.RadiantColorPreferenceController"/>
+          <com.radiant.support.preferences.SwitchPreference
+               android:title="@string/pitch_colors"
+               android:key="pitch_theme"
+               android:summary="@string/pitch_colors_summary"
+               android:dependency="monet_custom_themes"
+               android:icon="@drawable/ic_dark"/>
+
+          <Preference
+               android:key="monet_wall" 
+               android:title="@string/monet_wall"
+               android:summary="@string/monet_wall_summary"
+               android:dependency="monet_custom_themes"
+               android:icon="@drawable/ic_settings_wallpaper_white"
+               settings:controller="com.radiant.settings.controller.RadiantColorPreferenceController"/>
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="theme_customization_category"

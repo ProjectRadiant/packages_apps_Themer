@@ -27,12 +27,14 @@
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
     <string name="themes_title">Themes</string>
+    <string name="monet_cat">Monet</string>
+    <string name="clock_cat">Clock</string>
 
     <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
+    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G.\nWill trigger a SystemUI restart</string>
     <string name="icons_category">Icons</string>
     <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nWill trigger a SystemUI restart</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
