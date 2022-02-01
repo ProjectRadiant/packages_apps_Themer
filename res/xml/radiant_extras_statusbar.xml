@@ -22,6 +22,7 @@
         android:key="misc_icons_category"
         android:title="@string/icons_category">
 
+
          <com.radiant.support.preferences.SystemSettingSwitchPreference
                android:key="show_fourg_icon"
                android:title="@string/show_fourg_icon_title"
@@ -35,6 +36,24 @@
                android:icon="@drawable/ic_cmbnd"
                android:summary="@string/combined_status_bar_signal_icons_summary"
                android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/battery_options">
+
+        <com.radiant.support.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_show_battery_percent"
+            android:title="@string/battery_percent_title"
+            android:summary="@string/battery_percent_summary"
+            android:defaultValue="false" />
+
+        <com.radiant.support.preferences.SystemSettingListPreference
+            android:key="status_bar_battery_style"
+            android:title="@string/battery_style_title"
+            android:dialogTitle="@string/battery_style_title"
+            android:entries="@array/status_bar_battery_style_entries"
+            android:entryValues="@array/status_bar_battery_style_values" />
 
     </PreferenceCategory>
 
