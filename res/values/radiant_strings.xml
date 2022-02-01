@@ -63,4 +63,11 @@
     <string name="keygaurd_media_art_title">Media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
 
+    <!-- Network Traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_summary">Customize the traffic indicators</string>
+    <string name="network_traffic_state_title">Show network traffic</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+
+
 </resources>

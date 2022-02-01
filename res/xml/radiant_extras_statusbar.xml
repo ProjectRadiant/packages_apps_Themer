@@ -22,6 +22,11 @@
         android:key="misc_icons_category"
         android:title="@string/icons_category">
 
+         <Preference
+               android:key="traffic"
+               android:fragment="com.radiant.extras.fragments.TrafficSettings"
+               android:title="@string/traffic_title"
+               android:summary="@string/traffic_summary"/>
 
          <com.radiant.support.preferences.SystemSettingSwitchPreference
                android:key="show_fourg_icon"
