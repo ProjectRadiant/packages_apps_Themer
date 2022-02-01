@@ -26,14 +26,12 @@
          <com.radiant.support.preferences.SystemSettingSwitchPreference
                android:key="show_fourg_icon"
                android:title="@string/show_fourg_icon_title"
-               android:icon="@drawable/ic_fourg"
                android:summary="@string/show_fourg_icon_summary"
                android:defaultValue="false"/>
 
           <com.radiant.support.preferences.SecureSettingSwitchPreference
                android:key="show_combined_status_bar_signal_icons"
                android:title="@string/combined_status_bar_signal_icons"
-               android:icon="@drawable/ic_cmbnd"
                android:summary="@string/combined_status_bar_signal_icons_summary"
                android:defaultValue="false" />
 

@@ -27,8 +27,7 @@
                android:key="ls_smol_clock" 
                android:title="@string/small_clock"
                android:summary="@string/small_clock_summary"
-               android:defaultValue="false"
-               android:icon="@drawable/ic_clock"/>
+               android:defaultValue="false"/>
 
     </PreferenceCategory>
 

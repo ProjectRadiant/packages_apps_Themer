@@ -26,30 +26,26 @@
                android:key="monet_custom_themes" 
                android:title="@string/custom_colors"
                android:summary="@string/custom_colors_summary"
-               android:defaultValue="false"
-               android:icon="@drawable/ic_colors"/>
+               android:defaultValue="false"/>
 
           <com.radiant.support.preferences.SystemSettingSwitchPreference
                android:key="monet_plain_theme" 
                android:title="@string/plain_colors"
                android:summary="@string/plain_colors_summary"
                android:dependency="monet_custom_themes"
-               android:defaultValue="false"
-               android:icon="@drawable/ic_plain"/>
+               android:defaultValue="false"/>
 
           <com.radiant.support.preferences.SwitchPreference
                android:title="@string/pitch_colors"
                android:key="pitch_theme"
                android:summary="@string/pitch_colors_summary"
-               android:dependency="monet_custom_themes"
-               android:icon="@drawable/ic_dark"/>
+               android:dependency="monet_custom_themes"/>
 
           <Preference
                android:key="monet_wall" 
                android:title="@string/monet_wall"
                android:summary="@string/monet_wall_summary"
                android:dependency="monet_custom_themes"
-               android:icon="@drawable/ic_settings_wallpaper_white"
                settings:controller="com.radiant.settings.controller.RadiantColorPreferenceController"/>
 
     </PreferenceCategory>
@@ -60,7 +56,6 @@
 
         <ListPreference
             android:key="android.theme.customization.font"
-            android:icon="@drawable/font_ic"
             android:title="@string/theme_customization_font_title"/>
 
     </PreferenceCategory>
