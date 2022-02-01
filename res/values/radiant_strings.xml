@@ -28,7 +28,7 @@
     <string name="notifications_title">Notifications</string>
     <string name="themes_title">Themes</string>
     <string name="monet_cat">Monet</string>
-    <string name="clock_cat">Clock</string>
+    <string name="elements_cat">Lockscreen elements</string>
 
     <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
     <string name="show_fourg_icon_summary">Replace LTE indicator with 4G.\nWill trigger a SystemUI restart</string>

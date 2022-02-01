@@ -20,8 +20,8 @@
 
 
     <PreferenceCategory
-        android:key="clock_category"
-        android:title="@string/clock_cat">
+        android:key="itms_category"
+        android:title="@string/elements_cat">
 
           <com.radiant.support.preferences.SystemSettingSwitchPreference
                android:key="ls_smol_clock" 
