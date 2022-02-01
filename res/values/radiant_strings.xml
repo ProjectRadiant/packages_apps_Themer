@@ -59,4 +59,8 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
+    <!-- Lockscreen media art -->
+    <string name="keygaurd_media_art_title">Media art</string>
+    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+
 </resources>
