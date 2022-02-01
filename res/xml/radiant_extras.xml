@@ -41,5 +41,11 @@
           android:fragment="com.radiant.extras.fragments.StatusBarSettings"
           android:icon="@drawable/ic_settings_statusbar"/>
 
+     <Preference
+          android:key="gestures_category"
+          android:title="@string/gestures_title"
+          android:fragment="com.android.settings.gestures.GestureSettings"
+          settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"
+          android:icon="@drawable/ic_settings_gestures"/>
 
 </PreferenceScreen>
