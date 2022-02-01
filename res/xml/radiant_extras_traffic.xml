@@ -46,4 +46,12 @@
         android:defaultValue="1"
         android:dependency="network_traffic_state" />
 
+    <com.radiant.support.preferences.SystemSettingListPreference
+        android:key="network_traffic_mode"
+        android:title="@string/network_traffic_mode_title"
+        android:entries="@array/network_traffic_mode_entries"
+        android:entryValues="@array/network_traffic_mode_values"
+        android:defaultValue="0"
+        android:dependency="network_traffic_state" />
+
 </PreferenceScreen>
