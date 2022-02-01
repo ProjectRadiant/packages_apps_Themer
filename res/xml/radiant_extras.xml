@@ -30,6 +30,12 @@
           android:icon="@drawable/ic_settings_lockscreens"/>
 
      <Preference
+          android:key="power_category"
+          android:title="@string/powermenu_title" 
+          android:fragment="com.radiant.extras.fragments.PowerMenuSettings"
+          android:icon="@drawable/ic_settings_powermenu"/>
+
+     <Preference
           android:key="statusbar_category"
           android:title="@string/statusbar_title" 
           android:fragment="com.radiant.extras.fragments.StatusBarSettings"

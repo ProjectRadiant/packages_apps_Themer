@@ -45,6 +45,10 @@
     <string name="battery_percent_title">Show percent</string>
     <string name="battery_percent_summary">Always show the battery percent with the icon</string>
 
+    <!-- Advanced reboot  -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">Allow rebooting to recovery and bootloader</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
