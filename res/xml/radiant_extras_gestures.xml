@@ -23,10 +23,22 @@
         android:title="@string/system_cat">
 
           <Preference
-               android:key="gestures_category"
-               android:title="@string/gestures_title"
-               android:fragment="com.android.settings.gestures.GestureSettings"
-               settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+             android:key="gestures_category"
+             android:title="@string/gestures_title"
+             android:fragment="com.android.settings.gestures.GestureSettings"
+             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ls_category"
+        android:title="@string/lockscreen_title">
+
+          <com.radiant.support.preferences.SystemSettingSwitchPreference
+             android:key="doze_trigger_doubletap"
+             android:defaultValue="false"
+             android:title="@string/doze_double_tap_title"
+             android:summary="@string/doze_double_tap_summary" />
 
      </PreferenceCategory>
 
