@@ -44,8 +44,7 @@
      <Preference
           android:key="gestures_category"
           android:title="@string/gestures_title"
-          android:fragment="com.android.settings.gestures.GestureSettings"
-          settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"
+          android:fragment="com.radiant.extras.fragments.GestureSettings"
           android:icon="@drawable/ic_rdnt_gestures"/>
 
 </PreferenceScreen>
