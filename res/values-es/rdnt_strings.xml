@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="radiant_extras_title">Personalizaciones</string>
+
+    <!-- Categories -->
+    <string name="button_title">Botones</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="lockscreen_title">Pantalla de bloqueo</string>
+    <string name="misc_title">Misceláneos</string>
+    <string name="navbar_title">Barra de navegación</string>
+    <string name="powermenu_title">Menú de encendido</string>
+    <string name="quicksettings_title">Ajustes rápidos</string>
+    <string name="recents_title">Aplicaciones recientes</string>
+    <string name="statusbar_title">Barra de estado</string>
+    <string name="volume_title">Acciones de tecla de volumen</string>
+    <string name="notifications_title">Notificaciones</string>
+    <string name="themes_title">Temas</string>
+    <string name="monet_cat">Monet</string>
+    <string name="elements_cat">Elementos de pantalla de bloqueo</string>
+    <string name="system_cat">Sistema</string>
+
+    <string name="show_fourg_icon_title">Mostrar 4G en lugar de LTE</string>
+    <string name="show_fourg_icon_summary">Reemplazar el indicador LTE con 4G.\nActivará un reinicio de la UI del Sistema</string>
+    <string name="icons_category">Iconos de red</string>
+    <string name="combined_status_bar_signal_icons">Iconos de señal combinados</string>
+    <string name="combined_status_bar_signal_icons_summary">Habilite los iconos de señales combinadas en la barra de estado.\nActivará un reinicio de la UI del Sistema</string>
+
+    <!-- Battery customizations -->
+    <string name="battery_options">Batería</string>
+    <string name="battery_style_title">Estilo del ícono de batería</string>
+    <string name="battery_style_port">Retrato</string>
+    <string name="battery_style_circle">Círculo</string>
+    <string name="battery_style_text">Texto</string>
+    <string name="battery_percent_title">Mostrar porcentaje</string>
+    <string name="battery_percent_summary">Mostrar siempre el porcentaje de batería con el ícono</string>
+
+    <!-- Advanced reboot  -->
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Permitir el reinicio de recuperación y gestor de arranque</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reiniciar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Información de carga en la pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Muestra la corriente y el voltaje máximos del cargador y la temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
+
+    <!-- Lockscreen media art -->
+    <string name="keygaurd_media_art_title">Arte de multimedia</string>
+    <string name="keygaurd_media_art_summary">Mostrar el arte de multimedia como fondo de pantalla de bloqueo</string>
+
+    <!-- Network Traffic -->
+    <string name="traffic_title">Indicadores de tráfico de red</string>
+    <string name="traffic_summary">Personaliza los indicadores de tráfico</string>
+    <string name="network_traffic_disabled">Inhabilitado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de ocultación automática</string>
+    <string name="network_traffic_location_title">Ubicación</string>
+    <string name="network_traffic_statusbar">Barra de estado</string>
+    <string name="network_traffic_qs_header">Encabezado de ajustes rápidos</string>
+    <string name="network_traffic_refresh_interval_title">Intervalo de actualización</string>
+    <string name="network_traffic_mode_title">Modo de visualización</string>
+    <string name="network_traffic_dynamic">Dinámico</string>
+    <string name="network_traffic_download">Descarga</string>
+    <string name="network_traffic_upload">Subida</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Toca dos veces para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Pulso de notificaciones con un doble toque</string>
+
+    <!-- Tap To Sleep -->
+    <string name="statusbar_misc">Barra de estado</string>
+    <string name="double_tap_sleep_gesture_title">Toca para dormir</string>
+    <string name="double_tap_sleep_gesture_summary">Toque dos veces en cualquier lugar de la barra de estado para poner el dispositivo en reposo</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="double_tap_sleep_lockscreen_title">Toca dos veces para dormir</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toca dos veces en cualquier lugar de la pantalla de bloqueo para dormir</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Encender la linterna cuando la pantalla está apagada</string>
+    <string name="torch_power_button_gesture_none">Inhabilitado</string>
+    <string name="torch_power_button_gesture_dt">Presione dos veces el botón de encendido (deshabilita la función de cámara de apertura rápida y agrega un retraso de activación de 170 ms)</string>
+    <string name="torch_power_button_gesture_lp">Mantenga presionado el botón de encendido</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir diseño</string>
+
+    <!-- Navbar options -->
+    <string name="nav_bar_tuner_title">Sintonizador de barra de navegación</string>
+    <string name="nav_bar_tuner_summary">Cambiar el diseño de la barra de navegación</string>
+    <string name="navigation_bar_title">Barra de navegación</string>
+    <string name="system_navigation_summary">Elija qué estilo de navegación del sistema usar</string>
+
+</resources>
