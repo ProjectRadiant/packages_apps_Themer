@@ -24,6 +24,12 @@
           android:icon="@drawable/ic_themer_ext"/>
 
      <Preference
+          android:key="button_category"
+          android:title="@string/button_title" 
+          android:fragment="com.radiant.extras.fragments.ButtonSettings"
+          android:icon="@drawable/ic_settings_buttons"/>
+
+     <Preference
           android:key="lockscreen_category"
           android:title="@string/lockscreen_title" 
           android:fragment="com.radiant.extras.fragments.LockScreenSettings"
