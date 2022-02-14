@@ -21,6 +21,6 @@
     <com.radiant.support.preferences.SecureSettingSwitchPreference
         android:key="sysui_nav_bar_inverse"
         android:title="@string/navbar_invert_layout_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
 </PreferenceScreen>
